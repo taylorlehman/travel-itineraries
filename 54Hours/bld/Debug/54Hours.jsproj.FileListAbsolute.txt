@@ -1,0 +1,13 @@
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bin\Debug\resources.pri
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bin\Debug\AppxManifest.xml
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bin\Debug\54Hours.build.appxrecipe
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\priconfig.xml
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\layout.resfiles
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\resources.resfiles
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\pri.resfiles
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\LanguageQualifiers.txt
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\ProjectArchitectures.txt
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\priconfig.xml.intermediate
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\layout.resfiles.intermediate
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\resources.resfiles.intermediate
+D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\pri.resfiles.intermediate

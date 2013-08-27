@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Seventy Two Hours</title>
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- _54Hours references -->
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapicore.js"></script>
+    <script type="text/javascript" src="ms-appx:///Bing.Maps.JavaScript//js/veapimodules.js"></script>
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="js/appBarManager.js"></script>
+    <script src="js/userData.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="/js/utilities.js"></script>
+    <script src="/js/oneUpState.js"></script>
+    <script src="/js/resultsState.js"></script>
+    <script src="/js/searchState.js"></script>
+    <script src="/js/default.js"></script>
+</head>
+
+<body>
+    <!-- START/WELCOME EXPERIENCE -->
+    <div id="STARTGRID">
+      <div id="STARTGRID_main_div">
+          <div id="STARTGRID_logo_tagline">
+              <h1>Seventy Two Hours</h1>
+              <h2>Finding you the perfect three day trip</h2>
+          </div>
+          <div id="STARTGRID_search_start">
+              <h1>Where are you traveling to?</h1>
+              <div id="STARTGRID_searchstart_grid">
+                  <div id="STARTGRID_ss_ny" class="STARTGRID_locationDiv_class_disabled">New York, NY<h4>Coming soon!</h4></div>
+                  <div id="STARTGRID_ss_sf" class="STARTGRID_locationDiv_class_disabled">San Francisco, CA<h4>Coming soon!</h4></div>
+                  <div id="STARTGRID_ss_se" class="STARTGRID_locationDiv_class">Seattle, WA</div>
+                  <div id="STARTGRID_ss_ba" class="STARTGRID_locationDiv_class_disabled">Boston, MA<h4>Coming soon!</h4></div>
+              </div>
+          </div>
+      </div>
+      <div id="STARTGRID_hightlight_1" class="STARTGRID_highlightedTrip_class">
+          <h1 id="STARTGRID_highlighth1_1"></h1>
+          <h2 id="STARTGRID_highlighth2_1"></h2>
+      </div>
+        <div id="STARTGRID_hightlight_2" class="STARTGRID_highlightedTrip_class">
+            <h1 id="STARTGRID_highlighth1_2"></h1>
+            <h2 id="STARTGRID_highlighth2_2"></h2>
+        </div>
+        <div id="STARTGRID_hightlight_3" class="STARTGRID_highlightedTrip_class">
+            <h1 id="STARTGRID_highlighth1_3"></h1>
+            <h2 id="STARTGRID_highlighth2_3"></h2>
+        </div>
+        <div id="STARTGRID_hightlight_4" class="STARTGRID_highlightedTrip_class">
+            <h1 id="STARTGRID_highlighth1_4"></h1>
+            <h2 id="STARTGRID_highlighth2_4"></h2>
+        </div>
+    </div>
+
+    <!-- SEARCH EXPERIENCE -->
+    <div id="SEARCHGRID">
+        <div id="SEARCHGRID_where" class="SEARCHGRID_toplevel_div">WHERE</div>
+        <div id="SEARCHGRID_when" class="SEARCHGRID_toplevel_div">When</div>
+        <div id="SEARCHGRID_who" class="SEARCHGRID_toplevel_div">What</div>
+        <div id="SEARCHGRID_howmuch" class="SEARCHGRID_toplevel_div">How Much</div>
+    </div>
+    <div id="SEARCHCONTENT_A"></div>
+    <div id="SEARCHCONTENT_B"></div>
+    <div id="SEARCHGRID_next_button" class="navigation_button_appearance_class">Next</div>
+    <!--<div id="SEARCHGRID_enough_button">Enough filtering!  Let's see the trips!</div>-->
+ 
+    <!--SEARCHING EXPERIENCE -->
+    <div id="SEARCHINGGRID">
+        <div id="SEARCHINGGRID_content">
+            <div id="SEARCHINGGRID_title">Finding Itineraries...</div>
+            <div id="SEARCHINGGRID_item_where" class="SEARCHINGGRID_item">
+                <h1 class="SEARCHINGGRID_item_h1_class">Where</h1>
+                <h2 id="SEARCHINGGRID_item_where_h2" class="SEARCHINGGRID_item_h2_class"></h2>
+            </div>
+            <div id="SEARCHINGGRID_item_when" class="SEARCHINGGRID_item">
+                <h1 class="SEARCHINGGRID_item_h1_class">When</h1>
+                <h2 id="SEARCHINGGRID_item_when_h2" class="SEARCHINGGRID_item_h2_class"></h2>
+            </div>
+            <div id="SEARCHINGGRID_item_who" class="SEARCHINGGRID_item">
+                <h1 class="SEARCHINGGRID_item_h1_class">What</h1>
+                <h2 id="SEARCHINGGRID_item_who_h2" class="SEARCHINGGRID_item_h2_class"></h2>
+            </div>
+            <div id="SEARCHINGGRID_item_howmuch" class="SEARCHINGGRID_item">
+                <h1 class="SEARCHINGGRID_item_h1_class">How Much</h1>
+                <h2 id="SEARCHINGGRID_item_howmuch_h2" class="SEARCHINGGRID_item_h2_class"></h2>
+            </div>
+        </div>
+    </div>
+    
+    <!--RESULTS EXPERIENCE -->
+    <div id="RESULTSGRID"></div>
+    <div id="RESULTSGRID_next" class="RESULTSGRID_navbutton_class"></div>
+    <div id="RESULTSGRID_previous" class="RESULTSGRID_navbutton_class"></div>
+
+    <!-- ONE UP EXPERIENCE -->
+    <div id="ONEUPGRID">
+        <div id="ONEUPGRID_itinerary">
+            <div id="ONEUPGRID_contentgrid_8am" class="ONEUPGRID_contentgrid_div">8AM</div>
+            <div id="ONEUPGRID_contentgrid_10am" class="ONEUPGRID_contentgrid_div">10AM</div>
+            <div id="ONEUPGRID_contentgrid_12pm" class="ONEUPGRID_contentgrid_div">12PM</div>
+            <div id="ONEUPGRID_contentgrid_2pm" class="ONEUPGRID_contentgrid_div">2PM</div>
+            <div id="ONEUPGRID_contentgrid_4pm" class="ONEUPGRID_contentgrid_div">4PM</div>
+            <div id="ONEUPGRID_contentgrid_6pm" class="ONEUPGRID_contentgrid_div">6PM</div>
+            <div id="ONEUPGRID_contentgrid_8pm" class="ONEUPGRID_contentgrid_div">8PM</div>
+            <div id="ONEUPGRID_contentgrid_10pm" class="ONEUPGRID_contentgrid_div">10PM</div>
+            <div id="ONEUPGRID_contentgrid_friday" class="ONEUPGRID_contentgrid_daytitle_div">Friday</div>
+            <div id="ONEUPGRID_contentgrid_saturday" class="ONEUPGRID_contentgrid_daytitle_div">Saturday</div>
+            <div id="ONEUPGRID_contentgrid_sunday" class="ONEUPGRID_contentgrid_daytitle_div">Sunday</div>
+        </div>
+        <div id="ONEUPGRID_map"></div>
+    </div>
+    <div id="ONEUPGRID_details">
+        <div id="ONEUPGRID_details_content_full_div">
+            <div id="ONEUPGRID_details_content_div">
+                <div id="ONEUPGRID_details_title_div">
+                    <h1 id="ONEUPGRID_details_title_h1"></h1>
+                    <h2 id="ONEUPGRID_details_title_h2"></h2>
+                    <div id="ONEUPGRID_details_viewonmap_div" class="ONEUPGRID_details_title_action_div">View on Map</div>
+                </div>
+                <div id="ONEUPGRID_details_info_div">
+                    <div id="ONEUPGRID_details_categorycost_div">
+                        <div id="ONEUPGRID_details_category_div"></div>
+                        <div id="ONEUPGRID_details_cost_div"></div>
+                    </div>
+                    <div id="ONEUPGRID_details_transportation_div"></div>
+                    <div id="ONEUPGRID_details_description_div"></div>
+                </div>
+                <div id="ONEUPGRID_details_tips_div">
+                    <div id="ONEUPGRID_details_tips_authorpicture_div">
+                        <div id="ONEUPGRID_details_tips_author_picture"></div>
+                        <div id="ONEUPGRID_details_tips_author_title"></div>
+                    </div>
+                    <ul id="ONEUPGRID_details_tips_ul"></ul>
+                    <div id="ONEUPGRID_details_tips_actions_div"></div>
+                </div>
+            </div>
+            <div id="ONEUPGRID_details_close_div"></div>
+        </div>
+        <div id="ONEUPGRID_details_content_mini_div">
+            <div id="ONEUPGRID_details_content_mini_previous_div" class="ONEUPGRID_details_content_mini_nav_div"></div>
+            <div id="ONEUPGRID_details_content_mini_title_div">
+                <div id="ONEUPGRID_details_content_mini_title_div_top">
+                    <h1 id="ONEUPGRID_details_content_mini_title_h1"></h1>
+                    <h2 id="ONEUPGRID_details_content_mini_title_h2"></h2>
+                </div>
+                <h3 id="ONEUPGRID_details_content_mini_title_h3"></h3>
+            </div>
+            <div id="ONEUPGRID_details_content_mini_buttoncontainer_div">
+                <div id="ONEUPGRID_details_content_mini_details_button" class="ONEUPGRID_details_content_mini_button">Details</div>
+                <!--<div id="ONEUPGRID_details_content_mini_directions_button" class="ONEUPGRID_details_content_mini_button">Directions</div>-->
+            </div>
+            <div id="ONEUPGRID_details_content_mini_next_div" class="ONEUPGRID_details_content_mini_nav_div"></div>
+        </div>
+    </div>
+    <div id="ONEUPGRID_header">
+        <div id="ONEUPGRID_header_left" class="ONEUPGRID_header_div">
+            <div id="ONEUPGRID_header_backbutton"></div>
+            <h1 id="ONEUPGRID_header_left_h1">Seventy Two Hours</h1>
+            <h2 id="ONEUPGRID_header_left_h2"></h2>
+        </div>
+        <div id="ONEUPGRID_header_center" class="ONEUPGRID_header_div">
+            <h1 id="ONEUPGRID_header_center_h1"></h1>
+        </div>
+        <div id="ONEUPGRID_header_right" class="ONEUPGRID_header_div">
+            <div id="ONEUPGRID_header_who" class="ONEUPGRID_header_right_div"></div>
+            <div id="ONEUPGRID_header_howmuch" class="ONEUPGRID_header_right_div"></div>
+            <div id="ONEUPGRID_header_when" class="ONEUPGRID_header_right_div"></div>
+        </div>
+    </div>
+    <div id="ONEUPGRID_mapnav_all" class="ONEUPGRID_mapnav_button ONEUPGRID_mapnav_all">All</div>
+    <div id="ONEUPGRID_mapnav_fri" class="ONEUPGRID_mapnav_button ONEUPGRID_mapnav_fri">Fri</div>
+    <div id="ONEUPGRID_mapnav_sat" class="ONEUPGRID_mapnav_button ONEUPGRID_mapnav_sat">Sat</div>
+    <div id="ONEUPGRID_mapnav_sun" class="ONEUPGRID_mapnav_button ONEUPGRID_mapnav_sun">Sun</div>
+
+    <!-- APP BAR - One instance across the entire app -->
+    <div id="theAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdSave',label:'Save',icon:'pin',section:'global',tooltip:'Save Itinerary'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdRemove',label:'Forget',icon:'clear',section:'global',tooltip:'Forget Itinerary'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdItinerary',label:'Itinerary',icon:'list',section:'global',tooltip:'Save Itinerary'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdMap',label:'Map',icon:'map',section:'global',tooltip:'Itinerary Map'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdBackToResults',label:'Back to Results',icon:'left',section:'selection',tooltip:'Back to Results'}">
+        </button>
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdSearch',label:'New Search',icon:'find',section:'selection',tooltip:'New Search'}">
+        </button>
+    </div>
+
+    <div id="theAppBarTop"></div>
+    <div id="appBarCurtain"></div>
+
+</body>
+</html>

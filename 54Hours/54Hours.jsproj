@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>54Hours_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="default.html" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\Lobster.ttf" />
+    <Content Include="images\architecture.jpg" />
+    <Content Include="images\artsculture_200x200.jpg" />
+    <Content Include="images\artsculture_45x45.jpg" />
+    <Content Include="images\bike_200x200.jpg" />
+    <Content Include="images\bike_45x45.jpg" />
+    <Content Include="images\concert_200x200.jpg" />
+    <Content Include="images\concert_45x45.jpg" />
+    <Content Include="images\foodie_200x200.jpg" />
+    <Content Include="images\foodie_45x45.jpg" />
+    <Content Include="images\foursquare_logo.png" />
+    <Content Include="images\hiking_200x200.jpg" />
+    <Content Include="images\hiking_45x45.jpg" />
+    <Content Include="images\kids_200x200.jpg" />
+    <Content Include="images\kids_45x45.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\nightlife_200x200.jpg" />
+    <Content Include="images\nightlife_45x45.jpg" />
+    <Content Include="images\oysters_background.jpg" />
+    <Content Include="images\parisalley.jpg" />
+    <Content Include="images\parisbikes.jpg" />
+    <Content Include="images\parisbikes2.jpg" />
+    <Content Include="images\parisbikes_blue3.jpg" />
+    <Content Include="images\purple_flowers_background.jpg" />
+    <Content Include="images\results_item_bg.jpg" />
+    <Content Include="images\SEARCHGRID_where_usmap.png" />
+    <Content Include="images\seattle_gasworks.jpg" />
+    <Content Include="images\seattle_gasworks_crop.jpg" />
+    <Content Include="images\shopping_200x200.jpg" />
+    <Content Include="images\shopping_45x45.jpg" />
+    <Content Include="images\sightseeing_200x200.jpg" />
+    <Content Include="images\sightseeing_45x45.jpg" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\space_needle_background.jpg" />
+    <Content Include="images\spa_200x200.jpg" />
+    <Content Include="images\spa_45x45.jpg" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\taylor.jpg" />
+    <Content Include="images\transparent_bg.png" />
+    <Content Include="images\yelp_logo.png" />
+    <Content Include="js\appBarManager.js" />
+    <Content Include="js\controller.js" />
+    <Content Include="js\data.js" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\json2.js" />
+    <Content Include="js\oneUpState.js" />
+    <Content Include="js\resultsState.js" />
+    <Content Include="js\searchState.js" />
+    <Content Include="js\userData.js" />
+    <Content Include="js\utilities.js" />
+    <Content Include="js\worker.js" />
+    <None Include="54Hours_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Bing.Maps.JavaScript, Version=1.113.0601.0" />
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\itineraryImages\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

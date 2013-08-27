@@ -1,0 +1,1688 @@
+﻿@font-face {
+  font-family: "Lobster";
+  src: url('/fonts/Lobster.ttf')
+}
+
+body {
+    background-color: white;
+}
+
+/**********************************************/
+/************* STARTGRID STYLES ***************/
+/**********************************************/
+
+#STARTGRID {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 300px 300px;
+    -ms-grid-rows: 50% 50%;
+    height: 100%;
+    width: 100%;
+    transition: opacity 200ms;
+    z-index: 100;
+}
+
+#STARTGRID_main_div {
+        -ms-grid-column: 1;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 2;
+        padding: 10px;
+        background-image: url('/images/parisbikes_blue3.jpg');
+        text-shadow: 2px 2px 1px #000; 
+   }
+
+#STARTGRID_logo_tagline {
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+#STARTGRID_logo_tagline h1 {
+    font-family:'Lobster';
+    font-size: 72px;
+}
+
+#STARTGRID_logo_tagline h2 {
+    font-family:'Segoe UI';
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#STARTGRID_search_start {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+#STARTGRID_search_start h1 {
+    color: white;
+    font-family: 'Segoe UI' !important;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+}
+
+#STARTGRID_search_start h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: none;  
+    color: #1e2224;
+    font-weight: bold;
+}
+
+#STARTGRID_searchstart_grid {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    width: 100%;
+}
+
+#STARTGRID_searchstart_grid div{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    height: 50px;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+.STARTGRID_locationDiv_class {
+    background-color: #88d8f5;
+    color: white;
+    cursor: pointer;
+}
+
+.STARTGRID_locationDiv_class_disabled {
+    background-color: #bbb9b9;
+    color: white;
+}
+
+h4 {
+    color: #1e2224;
+    text-shadow: none;
+    font-weight: bold;
+    margin: -5px 0px 0px 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.STARTGRID_locationDivSelected_class {
+    color: #88d8f5;
+    background-color: white;
+}
+
+#STARTGRID_ss_ny {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    box-shadow: 1px 1px 3px black;
+}
+
+#STARTGRID_ss_sf {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    box-shadow: 1px 1px 3px black;
+}
+
+#STARTGRID_ss_se {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    box-shadow: 1px 1px 3px black;
+}
+
+#STARTGRID_ss_ba {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+    box-shadow: 1px 1px 3px black;
+}
+
+.navigation_button_appearance_class {
+    width: 225px;
+    background-color: #88d8f5;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    padding: 10px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    transition: left 300ms;
+}
+
+#STARTGRID_startSearch_button {
+    left: -250px;
+    box-shadow: 1px 1px 3px black;
+    cursor: pointer;
+}
+
+.STARTGRID_startSearch_button_selected {
+    color: #88d8f5 !important;
+    background-color: white !important;
+    left: -250px !important;
+}
+
+.STARTGRID_highlightedTrip_class {
+    padding: 15px;
+    text-shadow: 1px 1px 1px black;
+    -ms-flex-direction: column;
+    -ms-flex-pack: end;
+    display: -ms-flexbox;
+    border-color: white;
+    background-color: #d0d0d0;
+    cursor: pointer;
+}
+
+    #STARTGRID_hightlight_1 {
+        -ms-grid-column: 2;
+        -ms-grid-row: 1;
+        border-right: 0px;
+        border-top: 0px;
+        border-left: 4px;
+        border-bottom: 4px;
+        border-style: solid;
+    }
+    #STARTGRID_hightlight_2 {
+        -ms-grid-column: 3;
+        -ms-grid-row: 1;
+        border-right: 0px;
+        border-top: 0px;
+        border-left: 4px;
+        border-bottom: 4px;
+        border-style: solid;
+    }
+    #STARTGRID_hightlight_3 {
+        -ms-grid-column: 2;
+        -ms-grid-row: 2;
+        border-right: 0px;
+        border-top: 0px;
+        border-left: 4px;
+        border-bottom: 0px;
+        border-style: solid;
+    }
+    #STARTGRID_hightlight_4 {
+        -ms-grid-column: 3;
+        -ms-grid-row: 2;
+        border-right: 0px;
+        border-top: 0px;
+        border-left: 4px;
+        border-bottom: 0px;
+        border-style: solid;
+    }
+
+    .STARTGRID_highlightedTrip_class h1 {
+        font-family:'Segoe UI Light';
+        font-size: 32px;
+    }
+
+    .STARTGRID_highlightedTrip_class h2 {
+        font-family: 'Segoe UI';
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+/***********************************************/
+/************* SEARCHGRID STYLES ***************/
+/***********************************************/
+
+#SEARCHGRID {
+    display: -ms-flexbox;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    z-index: 200;
+    height: 75px;
+    background-color: #1e2224;
+    position: absolute;
+    top: -75px;
+    left: 0px;
+    transition: top 200ms;
+}
+
+.SEARCHGRID_toplevel_div {
+    width: 25%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    text-transform: uppercase;
+}
+
+#SEARCHGRID_next_button {
+    z-index: 175;
+    cursor: pointer;
+}
+
+.SEARCHGRID_completed_header_class {
+    color: #88d8f5 !important;
+}
+
+.SEARCHGRID_selected_header_class {
+    color: #1e2224 !important;
+    background-color: white;
+}
+
+#SEARCHCONTENT_A {
+    /*transition: opacity 400ms, left 400ms;*/
+    height: 100%;
+    width: 100%;
+    z-index: 150;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    display: none;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: column;
+}
+
+#SEARCHCONTENT_B {
+    height: 100%;
+    width: 100%;
+    z-index: 149;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    display: none;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: column;
+}
+
+.SEARCHCONTENT_h1_class {
+    color: #1e2224;
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI Light';
+}
+
+.SEARCHCONTENT_h2_class {
+    color: #bbb9b9;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI';
+    font-style: italic;
+}
+
+#HOWMUCHGRID {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    padding-top: 50px;
+}
+
+.HOWMUCHGRID_item_class {
+    width: 350px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.HOWMUCHGRID_item_unselected_class {
+        color: #1e2224;
+}
+
+.HOWMUCHGRID_item_selected_class {
+        color: #88d8f5;
+}
+
+.HOWMUCHGRID_h1_class {
+    font-size: 120px;
+}
+
+.HOWMUCHGRID_content_grid {
+    width: 400px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: row;
+    padding-top: 50px;
+}
+
+.HOWMUCHGRID_content_grid_sub {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: column;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.HOWMUCHGRID_content_grid_h1 {
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.HOWMUCHGRID_content_grid_h2 {
+    font-family: 'Segoe UI Light';
+    font-size: 32px;
+}
+
+#WHENGRID {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    width: 440px;
+}
+
+.WHENGRID_item {
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    border: 3px 3px 3px 3px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.SEARCHGRID_whoHeader {
+    height: 45px;
+    width: 45px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    color: white;
+    background-color: #88d8f5;
+    font-family: 'Segoe UI Light' !important;
+    font-size: 24px;
+}
+
+#WHOGRID {
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    width: 880px;
+    height: 440px;
+}
+
+.WHOGRID_item {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.WHOGRID_title {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0px;
+    margin-top: 174px;
+    margin-left: 10px;
+    color: white;
+}
+
+#WHOGRID_1 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    background: url('/images/bike_200x200.jpg');
+}
+
+#WHOGRID_2 {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    background: url('/images/spa_200x200.jpg');
+}
+
+#WHOGRID_3 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 1;
+    background: url('/images/kids_200x200.jpg');
+}
+
+#WHOGRID_4 {
+    -ms-grid-column: 4;
+    -ms-grid-row: 1;
+    background: url('/images/nightlife_200x200.jpg');
+}
+
+#WHOGRID_5 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    background: url('/images/foodie_200x200.jpg');
+}
+
+#WHOGRID_6 {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+    background: url('/images/sightseeing_200x200.jpg');
+}
+
+#WHOGRID_7 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+    background: url('/images/artsculture_200x200.jpg');
+}
+
+#WHOGRID_8 {
+    -ms-grid-column: 4;
+    -ms-grid-row: 2;
+    background: url('/images/shopping_200x200.jpg');
+}
+
+.WHOGRID_checkbox {
+    display: none;
+    width: 100%;
+    height: 100%;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    color: white;
+    opacity: 0.7;
+    font-size: 72px;
+    position: relative;
+    top: -190px;
+}
+
+#WHENGRID_spring {
+    background-color: #93ea58;
+    border-color: #93ea58;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+}
+
+.WHENGRID_spring_selected_class {
+    background-color: white !important;
+    color: #93ea58 !important;
+}
+
+#WHENGRID_summer {
+    background-color: #e6eb67;
+    border-color: #e6eb67;
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+}
+
+.WHENGRID_summer_selected_class {
+    background-color: white !important;
+    color: #e6eb67 !important;
+}
+
+#WHENGRID_fall {
+    background-color: #f7a373;
+    border-color: #f7a373;
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+}
+
+.WHENGRID_fall_selected_class {
+    background-color: white !important;
+    color: #f7a373 !important;
+}
+
+#WHENGRID_winter {
+    background-color: #88d8f5;
+    border-color: #88d8f5;
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+}
+
+.WHENGRID_winter_selected_class {
+    background-color: white !important;
+    color: #88d8f5 !important;
+}
+
+
+.WHEREGRID_plotpointOuterDiv_disabled {
+    width: 300px;
+    height: 16px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    position: relative;
+}
+
+.WHEREGRID_plotpointOuterDiv {
+    width: 300px;
+    height: 16px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.WHEREGRID_pointDiv_disabled {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #32393c;
+    display: -ms-flexbox;
+}
+
+.WHEREGRID_pointDiv {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: #88d8f5;
+    display: -ms-flexbox;
+}
+
+.WHEREGRID_pointLabelDiv_disabled {
+    width: 282px;
+    margin: 0px 0px 0px 10px;
+    border: 0px;
+    padding: 0px;
+    display: -mx-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    color: #32393c;
+    font-size: 24px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.WHEREGRID_pointLabelDiv {
+    width: 282px;
+    margin: 0px 0px 0px 10px;
+    border: 0px;
+    padding: 0px;
+    display: -mx-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    color: #88d8f5;
+    font-size: 24px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.WHEREGRID_pointLabelDiv_selected {
+    width: 282px;
+    margin: 0px 0px 0px 10px;
+    border: 0px;
+    padding: 0px;
+    display: -mx-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    color: #88d8f5;
+    font-size: 32px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.WHEREGRID_pointDisabledDiv {
+    color: #32393c;
+    font-size: 10px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    position: relative;
+    left: -282px;
+    top: 20px;
+}
+
+#WHEREGRID_map_div {
+    height: 535px;
+    width: 753px;
+    background-image: url('/images/SEARCHGRID_where_usmap.png');
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+}
+
+/***********************************************/
+/*********** SEARCHINGGRID STYLES **************/
+/***********************************************/
+
+#SEARCHINGGRID {
+    width: 100%;
+    height: 100%;
+    display: none;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: opacity 400ms;
+}
+
+#SEARCHINGGRID_content {
+    display: -ms-grid;
+    -ms-grid-columns: 4;
+    -ms-grid-rows: 2;
+    width: 1050px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#SEARCHINGGRID_title {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column-span: 4;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    color: #1e2224;
+    font-family: 'Lobster';
+    font-size: 72px;
+    padding-bottom: 20px;
+}
+
+#SEARCHINGGRID_item_where {
+    -ms-grid-column: 1;
+    -ms-grid-row: 2;
+}
+
+#SEARCHINGGRID_item_when {
+    -ms-grid-column: 2;
+    -ms-grid-row: 2;
+}
+
+#SEARCHINGGRID_item_who {
+    -ms-grid-column: 3;
+    -ms-grid-row: 2;
+}
+
+#SEARCHINGGRID_item_howmuch {
+    -ms-grid-column: 4;
+    -ms-grid-row: 2;
+    width: 150px !important;
+}
+
+.SEARCHINGGRID_item {
+    width: 300px;
+    color: #1e2224;
+    display: -ms-flexbox;
+    -ms-flex-align: start;
+    -ms-flex-pack: center;
+    -ms-flex-direction: column;
+    padding-top: 10px;
+}
+
+.SEARCHINGGRID_item_h1_class {
+    text-transform: uppercase;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+    color: #88d8f5;
+}
+
+.SEARCHINGGRID_item_h2_class {
+    font-family: 'Segoe UI Light';
+    font-size: 32px;
+    padding: 5px 0px 0px 0px;
+}
+
+#SEARCHINGGRID_item_who_h2 {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+}
+
+/***********************************************/
+/************** RESULTS STYLES *****************/
+/***********************************************/
+
+#RESULTSGRID {
+    height: 100%;
+    -ms-flex-pack: start;
+    -ms-flex-align: start;
+    transition: opacity 200ms, left 200ms, top 200ms;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+#RESULTSGRID_empty_div {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center !important;
+    -ms-flex-align: center !important;
+    height: 100%;
+    width: 100%;
+}
+
+.RESULTSGRID_empty_h1 {
+    color: #88d8f5;
+    font-family: 'Segoe UI Light';
+    font-size: 40px;
+}
+
+.RESULTSGRID_empty_h2 {
+    color: #1e2224;
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+#RESULTSGRID_empty_highlights_container {
+    height: 50%;
+    width: 1230px; /*Note: This is enough so that each div is 300 with a margin of 10 in between, none for the edges*/
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.RESULTSGRID_empty_highlights_div {
+    background-color: #88d8f5;
+    color: white;
+    height: 100%;
+    width: 300px;
+    padding: 0px;
+    border: 0px;
+    margin-right: 10px;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-flex-pack: end;
+    -ms-flex-align: start;
+    cursor: pointer;
+    /*text-shadow: 1px 1px 1px black;*/
+}
+
+.RESULTSGRID_empty_highlights_h1 {
+    font-family: 'Segoe UI Light';
+    font-size: 32px;
+    color: white;
+    padding: 5px;
+    width: 290px;
+}
+
+.RESULTSGRID_empty_highlights_h2 {
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    width: 290px;
+}
+
+.RESULTSGRID_item {
+    display: -ms-grid;
+    -ms-grid-columns: 350px 1fr;
+    -ms-grid-rows: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    transition: opacity 400ms;
+    -ms-touch-action: none;
+}
+
+.RESULTSGRID_item_leftDiv {
+    background-color: #d0d0d0;
+    display: -ms-flexbox;
+    -ms-flex-align: start;
+    -ms-flex-pack: start;
+    -ms-flex-direction:column;
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    background-image: url('/images/results_item_bg.jpg');
+}
+
+.RESULTSGRID_item_lefttitle {
+    font-family: 'Lobster';
+    font-size: 60px;
+    color: #88d8f5;
+    text-shadow: 1px 1px 3px black;
+    padding: 0px;
+    margin: 100px 0px 0px 20px;
+    width: 320px;
+}
+
+.RESULTSGRID_item_leftsubtitle {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0px;
+    margin: 10px 0px 0px 20px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.RESULTSGRID_item_rightDiv {
+    display: -ms-flexbox;
+    -ms-flex-align: start;
+    -ms-flex-pack: start;
+    -ms-flex-direction: column;
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    color: #1e2224;
+    padding: 0px;
+    margin: 0px;
+}
+
+.RESULTSGRID_item_righttitle {
+    text-transform: uppercase;
+    color: #1e2224;
+    margin: 100px 0px 0px 5%;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.RESULTSGRID_item_rightp {
+    margin: 10px 5% 0px 5%;
+    font-family: 'Segoe UI';
+    color: #1e2224;
+    width: 90%;
+    font-size: 20px;
+}
+
+.RESULTSGRID_item_infogrid {
+    width: 90%;
+    margin: 50px 5% 0px 5%;
+    color: #1e2224;
+    display: -ms-grid;
+    -ms-grid-columns: 50% 50%;
+    -ms-grid-rows: 1fr;
+}
+
+.RESULTSGRID_item_infogrid_howmuch {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+}
+
+.RESULTSGRID_item_infogrid_who {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+}
+
+.RESULTSGRID_item_infogrid_h1 {
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.RESULTSGRID_item_infogrid_h2 {
+    font-family: 'Segoe UI Light';
+    font-size: 80px;
+    margin-top: 5px;
+}
+
+.RESULTSGRID_item_sample_h1 {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 50px 5% 0px 5%;
+}
+
+.RESULTSGRID_item_sample_ul {
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    margin: 10px 5% 0px 5%;
+}
+
+.RESULTSGRID_item_action_grid {
+    width: 100%;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    margin-top: 50px;
+}
+
+.RESULTSGRID_item_button {
+    width: 225px;
+    height: 50px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #88d8f5;
+    cursor: pointer;
+}
+
+.RESULTSGRID_item_save_div {
+    margin-right: 100px;
+}
+
+.RESULTSGRID_item_save_p {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-weight: inherit;
+}
+
+.RESULTSGRID_navbutton_class {
+    position: absolute;
+    display: -ms-flexbox;
+    height: 100px;
+    width: 50px;
+    color: white;
+    background-color: #88d8f5;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    transition: left 200ms;
+    cursor: pointer;
+}
+
+/***********************************************/
+/************** ONE UP STYLES ******************/
+/***********************************************/
+#ONEUPGRID {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+#ONEUPGRID_header {
+    width: 100%;
+    height: 75px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    background-color: #1e2224;
+    color: white;
+    top: -75px;
+    left: 0px;
+    position: absolute;
+    transition: top 400ms;
+    z-index: 600;
+}
+
+.ONEUPGRID_header_div {
+    width: 33%;
+    height: 100%;
+}
+
+#ONEUPGRID_header_left {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+}
+
+#ONEUPGRID_header_center {
+   display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center; 
+}
+
+#ONEUPGRID_header_right {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: end;
+}
+
+#ONEUPGRID_header_left_h1 {
+    color: #88d8f5;
+    font-family: 'Lobster';
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+#ONEUPGRID_header_left_h2 {
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#ONEUPGRID_header_center_h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.ONEUPGRID_header_div {
+    width: 33%;
+    height: 100%;
+}
+
+.ONEUPGRID_header_right_div {
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    display: -ms-flexbox;
+    height: 100%;
+    padding: 0px 20px 0px 0px;
+}
+
+#ONEUPGRID_header_howmuch {
+    font-family: 'Segoe UI';
+    font-size: 30px;
+}
+
+#ONEUPGRID_itinerary {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: -ms-flexbox;
+    -ms-flex-pack: start;
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+}
+
+.ONEUPGRID_contentgrid_div {
+    width: 100%;
+    border-top: 1px solid #d0d0d0;
+    display: -ms-flexbox;
+    -ms-flex-pack: start;
+    -ms-flex-align: start;
+    font-family: "Segoe UI Light";
+    font-size: 24px;
+    padding: 5px 0px 0px 10px;
+    color: #6d6d6d;
+}
+
+#ONEUPGRID_contentgrid_8am {
+    -ms-grid-row: 1;
+}
+
+#ONEUPGRID_contentgrid_10am {
+    -ms-grid-row: 2;
+}
+
+#ONEUPGRID_contentgrid_12pm {
+    -ms-grid-row: 3;
+}
+
+#ONEUPGRID_contentgrid_2pm {
+    -ms-grid-row: 4;
+}
+
+#ONEUPGRID_contentgrid_4pm {
+    -ms-grid-row: 5;
+}
+
+#ONEUPGRID_contentgrid_6pm {
+    -ms-grid-row: 6;
+}
+
+#ONEUPGRID_contentgrid_8pm {
+    -ms-grid-row: 7;
+}
+
+#ONEUPGRID_contentgrid_10pm {
+    -ms-grid-row: 8;
+}
+
+.ONEUPGRID_contentgrid_daytitle_div {
+    font-size: 30px;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: start;
+    color: #1e2224;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-family: "Segoe UI Light";
+    position: absolute;
+}
+
+.ONEUPGRID_itinerary_event {
+    z-index: 500;
+    position: absolute;
+    display: -ms-flexbox;
+    -ms-flex-align: start;
+    -ms-flex-pack: start;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.ONEUPGRID_itinerary_event_Friday {
+    border: 1px solid #88d8f5;
+    background-color: #88d8f5;
+    color: white;
+}
+
+.ONEUPGRID_itinerary_event_Friday_selected {
+    border: 1px solid #88d8f5;
+    background-color: white;
+    color: #88d8f5;
+}
+
+.ONEUPGRID_itinerary_event_Saturday {
+    border: 1px solid #93ea58;
+    background-color: #93ea58;
+    color: white;
+}
+
+.ONEUPGRID_itinerary_event_Saturday_selected {
+    border: 1px solid #93ea58;
+    background-color: white;
+    color: #93ea58;
+}
+
+.ONEUPGRID_itinerary_event_Sunday {
+    border: 1px solid #f7a373;
+    background-color: #f7a373;
+    color: white;
+}
+
+.ONEUPGRID_itinerary_event_Sunday_selected {
+    border: 1px solid #f7a373;
+    background-color: white;
+    color: #f7a373;
+}
+
+.ONEUPGRID_itinerary_event_h1 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#ONEUPGRID_details {
+    position: absolute;
+    left: 0px;
+    /*background-color: #272c2f;*/
+    background-image: url('/images/transparent_bg.png');
+    background-repeat: repeat-x repeat-y;
+    z-index: 550;
+    transition: top 200ms;
+    color: white;
+    display: -ms-flexbox;
+    -ms-flex-align: start;
+    -ms-flex-pack: start;
+    -ms-flex-direction: column;
+}
+
+#ONEUPGRID_details_close_div {
+    width: 100%;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    color: white;
+    cursor: pointer;
+}
+
+#ONEUPGRID_details_content_full_div {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display: block;
+}
+
+#ONEUPGRID_details_content_mini_div {
+    display: none;
+    opacity: 0;
+    height: 80px;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+    -ms-flex-direction:row;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    color: white;
+}
+
+.ONEUPGRID_details_content_mini_nav_div {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    cursor: pointer;
+}
+
+.ONEUPGRID_details_content_mini_nav_div:hover {
+    color: #88d8f5;
+}
+
+#ONEUPGRID_details_content_mini_title_div {
+    display: -ms-flexbox;
+    -ms-flex-align: start;
+    -ms-flex-pack: start;
+    -ms-flex-direction: column;
+    height: 60px;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#ONEUPGRID_details_content_mini_buttoncontainer_div {
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: end;
+}
+
+#ONEUPGRID_details_content_mini_title_div_top {
+    -ms-flex-align: end;
+    -ms-flex-pack: start;
+    display: -ms-flexbox;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    height: 40px;
+}
+
+#ONEUPGRID_details_content_mini_title_h1 {
+    font-family: "Segoe UI Light";
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+#ONEUPGRID_details_content_mini_title_h2 {
+    font-family: "Segoe UI";
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    border: 0px;
+}
+
+#ONEUPGRID_details_content_mini_title_h3 {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-transform: uppercase;
+}
+
+.ONEUPGRID_details_content_mini_button {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    background-color: #88d8f5;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#ONEUPGRID_details_content_div {
+    width: 100%;
+    height: 100%;
+    padding: 15px 15px 0px 15px;
+    margin: 0px;
+    border: 0px;
+    display: -ms-grid;
+    -ms-grid-rows: 10% 90%;
+    -ms-grid-columns: 50% 50%;
+}
+
+#ONEUPGRID_details_title_div {
+    -ms-grid-column-span: 2;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    display: -ms-flexbox;
+    -ms-flex-align: end;
+    -ms-flex-pack: start;
+}
+
+#ONEUPGRID_details_title_h1 {
+    font-family: "Segoe UI Light";
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#ONEUPGRID_details_title_h2 {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+}
+
+.ONEUPGRID_details_title_action_div {
+    color: white;
+    font-weight: bold;
+    font-family: "Segoe UI";
+    background-color: #88d8f5;
+    font-size: 16px;
+    height: 24px;
+    padding: 4px 7px 4px 7px;
+    margin: 0px 0px 0px 25px;
+    cursor:pointer;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+}
+
+#ONEUPGRID_details_info_div {
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+#ONEUPGRID_details_categorycost_div {
+    display: -ms-flexbox;
+    -ms-flex-direction: row;
+    padding-bottom: 5px;
+}
+
+#ONEUPGRID_details_category_div {
+    padding-right: 5px;
+}
+
+#ONEUPGRID_details_cost_div {
+    /*All covered in the javascript*/
+}
+
+#ONEUPGRID_details_transportation_div {
+    border-bottom: 2px dotted #1e2224;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#ONEUPGRID_details_description_div {
+    padding-top: 10px;
+    width: 100%;
+}
+
+#ONEUPGRID_details_tips_div {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    padding-top: 15px;
+}
+
+#ONEUPGRID_details_tips_authorpicture_div {
+    width: 100%;
+    height: 32px;
+    padding-bottom: 5px;
+    -ms-flex-align: center;
+    display: -ms-flexbox;
+}
+
+#ONEUPGRID_details_tips_author_picture {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    margin-right: 10px;
+}
+
+#ONEUPGRID_details_tips_author_title {
+    font-size: 32px;
+    font-family: 'Segoe UI';
+}
+
+#ONEUPGRID_details_tips_ul {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#ONEUPGRID_details_tips_ul li {
+    padding-top: 4px;
+    font-size: 16px;
+}
+
+#ONEUPGRID_details_tips_actions_div h1 {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#ONEUPGRID_details_tips_actions_div {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+}
+
+#ONEUPGRID_details_tips_actions_div div {
+    display: -ms-flexbox;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#ONEUPGRID_map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 501;
+}
+
+.ONEUPGRID_mapdot {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    z-index: 500;
+    cursor: pointer;
+}
+
+.ONEUPGRID_mapdot_selected {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px black;
+    z-index: 501;
+    cursor: pointer;
+}
+
+.ONEUPGRID_mapdot_friday {
+    border-color: #88d8f5;
+    background-color: #88d8f5;
+}
+
+.ONEUPGRID_mapdot_saturday {
+    border-color: #93ea58;
+    background-color: #93ea58;
+}
+
+.ONEUPGRID_mapdot_sunday {
+    border-color: #f7a373;
+    background-color: #f7a373;
+}
+
+.ONEUPGRID_mapnav_button {
+    display: none;
+    opacity: 0;
+    height: 75px;
+    width: 75px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    font-size: 18pt;
+    text-transform: uppercase;
+    position: absolute;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    z-index: 502;
+    cursor: pointer;
+}
+
+.ONEUPGRID_mapnav_all {
+    color: white;
+    background-color: #6d6d6d;
+    border: 1px solid #6d6d6d;
+}
+
+.ONEUPGRID_mapnav_fri {
+    color: white;
+    background-color: #88d8f5;
+    border: 1px solid #88d8f5;
+}
+
+.ONEUPGRID_mapnav_sat {
+    background-color: #93ea58;
+    color: white;
+    border: 1px solid #93ea58;
+}
+
+.ONEUPGRID_mapnav_sun {
+    background-color: #f7a373;
+    color: white;
+    border: 1px solid #f7a373;
+}
+
+.ONEUPGRID_mapnav_all_selected {
+    color: #6d6d6d;
+    background-color: white;
+    border: 1px solid #6d6d6d;
+}
+
+.ONEUPGRID_mapnav_fri_selected {
+    color: #88d8f5;
+    background-color: white;
+    border: 1px solid #88d8f5;
+}
+
+.ONEUPGRID_mapnav_sat_selected {
+    background-color: white;
+    color: #93ea58;
+    border: 1px solid #93ea58;
+}
+
+.ONEUPGRID_mapnav_sun_selected {
+    background-color: white;
+    color: #f7a373;
+    border: 1px solid #f7a373;
+}
+
+/***********************************************/
+/************** APP BAR (TOP) ******************/
+/***********************************************/
+#theAppBarTop {
+    background-color: #1e2224;
+    width: 100%;
+    height: 100px;
+    display: none;
+    opacity: 0;
+    -ms-flex-align: center;
+    -ms-flex-pack: start;
+    -ms-flex-direction: row;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    border: 0px;
+    z-index: 1000;
+    overflow-x: scroll;
+}
+
+#appBarCurtain {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    z-index: 999;
+}
+
+.theAppBarTop_div {
+    background-color: #272c2f;     
+    height: 70px; /*100- 10 each for top and bottom margin - 5 each for top and bottom padding*/
+    width: 150px;
+    padding: 5px;
+    margin: 0px 10px 0px 0px;
+    border: 0px;
+    display: -ms-flexbox;
+    cursor: pointer;
+}
+
+.theAppBarTop_div:hover {
+    background-color: #32393c;     
+    height: 70px; /*100- 10 each for top and bottom margin - 5 each for top and bottom padding*/
+    width: 150px;
+    padding: 5px;
+    margin: 0px 10px 0px 0px;
+    border: 0px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    
+}
+
+#theAppBarTop p {
+    color: #88d8f5;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    width: 140px;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
