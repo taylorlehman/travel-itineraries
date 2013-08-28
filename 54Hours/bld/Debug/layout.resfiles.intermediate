@@ -19,6 +19,14 @@ images\foodie_45x45.jpg
 images\foursquare_logo.png
 images\hiking_200x200.jpg
 images\hiking_45x45.jpg
+images\itineraryImages\0_highlight.jpg
+images\itineraryImages\0_results.jpg
+images\itineraryImages\1_highlight.jpg
+images\itineraryImages\1_results.jpg
+images\itineraryImages\2_highlight.jpg
+images\itineraryImages\2_results.jpg
+images\itineraryImages\3_highlight.jpg
+images\itineraryImages\3_results.jpg
 images\kids_200x200.jpg
 images\kids_45x45.jpg
 images\logo.png
@@ -46,6 +54,7 @@ images\splashscreen.png
 images\storelogo.png
 images\taylor.jpg
 images\transparent_bg.png
+images\widelogo.png
 images\yelp_logo.png
 js\appBarManager.js
 js\controller.js

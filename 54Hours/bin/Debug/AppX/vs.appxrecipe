@@ -5,7 +5,7 @@
     <WindowsUser>Taylor</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>94E0FFEEFC7E69524DD207BC8D57AAB80FF4D40B08F1A579D36C6D13632B576E</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>DB72859D5EBE6C71A3FE83C12B8A7F6FFBFF77C47EE8A6933ECE4148D88D5FF0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_1.0.0.0_neutral__hxaws8gg03xft</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_hxaws8gg03xft!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545</RegisteredPackageID>
@@ -13,10 +13,10 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-26T19:56:30.736</Modified>
+      <Modified>2013-08-28T05:39:09.414</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -948,253 +948,290 @@
       <PackagePath>Bing.Maps.JavaScript\js\veapiModules.js</PackagePath>
       <Modified>2013-07-17T23:11:30.025</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\css\font-awesome.min.css">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\font-awesome.min.css">
       <PackagePath>css\font-awesome.min.css</PackagePath>
       <Modified>2013-02-26T02:51:26.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\css\default.css">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2013-08-26T19:55:22.912</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\default.html">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
       <Modified>2013-08-26T03:51:24.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\fonts\fontawesome-webfont.eot">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.eot">
       <PackagePath>fonts\fontawesome-webfont.eot</PackagePath>
       <Modified>2013-02-01T06:28:55.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\fonts\fontawesome-webfont.svg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.svg">
       <PackagePath>fonts\fontawesome-webfont.svg</PackagePath>
       <Modified>2013-02-01T06:28:55.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\fonts\fontawesome-webfont.ttf">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.ttf">
       <PackagePath>fonts\fontawesome-webfont.ttf</PackagePath>
       <Modified>2013-02-01T06:28:55.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\fonts\Lobster.ttf">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\Lobster.ttf">
       <PackagePath>fonts\Lobster.ttf</PackagePath>
       <Modified>2012-12-17T05:07:29.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\fonts\fontawesome-webfont.woff">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.woff">
       <PackagePath>fonts\fontawesome-webfont.woff</PackagePath>
       <Modified>2013-02-01T06:28:55.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\fonts\FontAwesome.otf">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\FontAwesome.otf">
       <PackagePath>fonts\FontAwesome.otf</PackagePath>
       <Modified>2013-02-01T06:28:55.221</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\architecture.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\architecture.jpg">
       <PackagePath>images\architecture.jpg</PackagePath>
       <Modified>2013-06-16T19:11:32.948</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\artsculture_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\artsculture_200x200.jpg">
       <PackagePath>images\artsculture_200x200.jpg</PackagePath>
       <Modified>2013-08-26T19:52:54.774</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\artsculture_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\artsculture_45x45.jpg">
       <PackagePath>images\artsculture_45x45.jpg</PackagePath>
       <Modified>2013-08-26T19:53:12.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\bike_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\bike_200x200.jpg">
       <PackagePath>images\bike_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:12:26.811</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\bike_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\bike_45x45.jpg">
       <PackagePath>images\bike_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:12:56.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\concert_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\concert_200x200.jpg">
       <PackagePath>images\concert_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:30:48.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\concert_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\concert_45x45.jpg">
       <PackagePath>images\concert_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:31:02.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\foodie_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\foodie_200x200.jpg">
       <PackagePath>images\foodie_200x200.jpg</PackagePath>
       <Modified>2013-06-26T04:17:30.920</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\foodie_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\foodie_45x45.jpg">
       <PackagePath>images\foodie_45x45.jpg</PackagePath>
       <Modified>2013-06-26T04:17:48.563</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\hiking_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\hiking_200x200.jpg">
       <PackagePath>images\hiking_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:16:02.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\hiking_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\hiking_45x45.jpg">
       <PackagePath>images\hiking_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:16:17.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\kids_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\0_highlight.jpg">
+      <PackagePath>images\itineraryImages\0_highlight.jpg</PackagePath>
+      <Modified>2013-08-28T04:36:44.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\0_results.jpg">
+      <PackagePath>images\itineraryImages\0_results.jpg</PackagePath>
+      <Modified>2013-08-28T04:22:57.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\1_highlight.jpg">
+      <PackagePath>images\itineraryImages\1_highlight.jpg</PackagePath>
+      <Modified>2013-08-28T04:26:35.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\1_results.jpg">
+      <PackagePath>images\itineraryImages\1_results.jpg</PackagePath>
+      <Modified>2013-08-28T04:23:21.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\2_highlight.jpg">
+      <PackagePath>images\itineraryImages\2_highlight.jpg</PackagePath>
+      <Modified>2013-08-28T05:09:57.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\2_results.jpg">
+      <PackagePath>images\itineraryImages\2_results.jpg</PackagePath>
+      <Modified>2013-08-28T05:07:33.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\3_highlight.jpg">
+      <PackagePath>images\itineraryImages\3_highlight.jpg</PackagePath>
+      <Modified>2013-08-28T05:13:33.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\3_results.jpg">
+      <PackagePath>images\itineraryImages\3_results.jpg</PackagePath>
+      <Modified>2013-08-28T05:12:16.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\kids_200x200.jpg">
       <PackagePath>images\kids_200x200.jpg</PackagePath>
       <Modified>2013-08-26T19:51:15.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\kids_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\kids_45x45.jpg">
       <PackagePath>images\kids_45x45.jpg</PackagePath>
       <Modified>2013-08-26T19:51:39.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\nightlife_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\nightlife_200x200.jpg">
       <PackagePath>images\nightlife_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:24:57.737</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\nightlife_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\nightlife_45x45.jpg">
       <PackagePath>images\nightlife_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:25:14.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\oysters_background.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\oysters_background.jpg">
       <PackagePath>images\oysters_background.jpg</PackagePath>
       <Modified>2013-06-13T04:16:26.872</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\parisalley.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\parisalley.jpg">
       <PackagePath>images\parisalley.jpg</PackagePath>
       <Modified>2013-06-17T01:48:01.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\parisbikes.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\parisbikes.jpg">
       <PackagePath>images\parisbikes.jpg</PackagePath>
       <Modified>2013-06-17T01:45:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\parisbikes2.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\parisbikes2.jpg">
       <PackagePath>images\parisbikes2.jpg</PackagePath>
       <Modified>2013-06-17T01:46:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\parisbikes_blue3.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\parisbikes_blue3.jpg">
       <PackagePath>images\parisbikes_blue3.jpg</PackagePath>
       <Modified>2013-06-17T03:36:50.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\purple_flowers_background.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\purple_flowers_background.jpg">
       <PackagePath>images\purple_flowers_background.jpg</PackagePath>
       <Modified>2013-06-13T04:08:09.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\results_item_bg.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\results_item_bg.jpg">
       <PackagePath>images\results_item_bg.jpg</PackagePath>
       <Modified>2013-06-26T14:44:37.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\seattle_gasworks.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\seattle_gasworks.jpg">
       <PackagePath>images\seattle_gasworks.jpg</PackagePath>
       <Modified>2013-06-17T03:55:12.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\seattle_gasworks_crop.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\seattle_gasworks_crop.jpg">
       <PackagePath>images\seattle_gasworks_crop.jpg</PackagePath>
       <Modified>2013-06-17T04:27:54.891</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\shopping_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\shopping_200x200.jpg">
       <PackagePath>images\shopping_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:13:43.674</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\shopping_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\shopping_45x45.jpg">
       <PackagePath>images\shopping_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:13:59.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\sightseeing_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\sightseeing_200x200.jpg">
       <PackagePath>images\sightseeing_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:29:37.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\sightseeing_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\sightseeing_45x45.jpg">
       <PackagePath>images\sightseeing_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:29:53.729</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\space_needle_background.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\space_needle_background.jpg">
       <PackagePath>images\space_needle_background.jpg</PackagePath>
       <Modified>2013-06-13T04:18:49.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\spa_200x200.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\spa_200x200.jpg">
       <PackagePath>images\spa_200x200.jpg</PackagePath>
       <Modified>2013-06-24T05:25:44.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\spa_45x45.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\spa_45x45.jpg">
       <PackagePath>images\spa_45x45.jpg</PackagePath>
       <Modified>2013-06-24T05:29:01.966</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\taylor.jpg">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\taylor.jpg">
       <PackagePath>images\taylor.jpg</PackagePath>
       <Modified>2013-07-07T05:25:01.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\foursquare_logo.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\foursquare_logo.png">
       <PackagePath>images\foursquare_logo.png</PackagePath>
       <Modified>2013-07-21T13:43:25.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\logo.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T19:30:08.000</Modified>
+      <Modified>2013-08-28T05:28:50.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\SEARCHGRID_where_usmap.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\SEARCHGRID_where_usmap.png">
       <PackagePath>images\SEARCHGRID_where_usmap.png</PackagePath>
       <Modified>2013-07-14T22:24:15.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\smalllogo.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-26T19:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\splashscreen.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T19:30:08.000</Modified>
+      <Modified>2013-08-28T05:38:20.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\storelogo.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2012-07-26T19:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\transparent_bg.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\transparent_bg.png">
       <PackagePath>images\transparent_bg.png</PackagePath>
       <Modified>2013-08-12T02:29:44.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\images\yelp_logo.png">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\widelogo.png">
+      <PackagePath>images\widelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-28T05:37:33.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\yelp_logo.png">
       <PackagePath>images\yelp_logo.png</PackagePath>
       <Modified>2013-07-21T13:43:23.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\appBarManager.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\appBarManager.js">
       <PackagePath>js\appBarManager.js</PackagePath>
       <Modified>2013-08-26T02:39:25.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\controller.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\controller.js">
       <PackagePath>js\controller.js</PackagePath>
       <Modified>2013-08-09T02:41:06.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\data.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-22T13:18:52.243</Modified>
+      <Modified>2013-08-28T05:17:06.547</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\default.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2013-08-20T06:04:45.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\json2.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\json2.js">
       <PackagePath>js\json2.js</PackagePath>
       <Modified>2012-12-12T05:19:17.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\oneUpState.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-08-26T19:53:15.988</Modified>
+      <Modified>2013-08-28T04:53:43.504</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\resultsState.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
-      <Modified>2013-08-20T20:36:28.240</Modified>
+      <Modified>2013-08-28T04:44:37.491</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\searchState.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\searchState.js">
       <PackagePath>js\searchState.js</PackagePath>
-      <Modified>2013-08-26T19:57:19.224</Modified>
+      <Modified>2013-08-27T01:01:01.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\userData.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\userData.js">
       <PackagePath>js\userData.js</PackagePath>
       <Modified>2013-08-26T02:25:55.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\utilities.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\utilities.js">
       <PackagePath>js\utilities.js</PackagePath>
       <Modified>2013-08-26T19:55:50.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\js\worker.js">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\worker.js">
       <PackagePath>js\worker.js</PackagePath>
       <Modified>2013-08-20T01:32:23.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-08-26T19:56:28.950</Modified>
+      <Modified>2013-08-28T05:39:08.978</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

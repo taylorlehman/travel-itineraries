@@ -11,3 +11,16 @@ D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\priconfig.xml.intermediate
 D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\layout.resfiles.intermediate
 D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\resources.resfiles.intermediate
 D:\SkyDrive\Code\36 Hours\54Hours\54Hours\bld\Debug\pri.resfiles.intermediate
+D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri
+D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml
+D:\GitHub\travel-itineraries\54Hours\bin\Debug\54Hours.build.appxrecipe
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\priconfig.xml.intermediate
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\layout.resfiles.intermediate
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\resources.resfiles.intermediate
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\pri.resfiles.intermediate
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\priconfig.xml
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\layout.resfiles
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\resources.resfiles
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\pri.resfiles
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\LanguageQualifiers.txt
+D:\GitHub\travel-itineraries\54Hours\bld\Debug\ProjectArchitectures.txt

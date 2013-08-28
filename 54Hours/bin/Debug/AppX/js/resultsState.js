@@ -202,6 +202,7 @@
         //Create the Left-Hand Div
         var tempLeftDiv = document.createElement("div");
         tempLeftDiv.classList.add("RESULTSGRID_item_leftDiv");
+        tempLeftDiv.style.backgroundImage = "url('" + response.resultsImage + "')";
 
         //Create the "72 Hours" title
         var tempH1 = document.createElement("h1");

@@ -16,7 +16,7 @@
   <Applications>
     <Application Id="App" StartPage="default.html">
       <VisualElements DisplayName="Seventy Two Hours" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="Currated three-day trip itineraries." ForegroundText="light" BackgroundColor="#464646">
-        <DefaultTile ShowName="allLogos" ShortName="Seventy Two Hours" />
+        <DefaultTile ShowName="allLogos" ShortName="Seventy Two Hours" WideLogo="images\widelogo.png" />
         <SplashScreen Image="images\splashscreen.png" BackgroundColor="#88d8f5" />
         <InitialRotationPreference>
           <Rotation Preference="landscape" />

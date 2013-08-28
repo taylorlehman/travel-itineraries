@@ -73,6 +73,14 @@
     <Content Include="images\foursquare_logo.png" />
     <Content Include="images\hiking_200x200.jpg" />
     <Content Include="images\hiking_45x45.jpg" />
+    <Content Include="images\itineraryImages\0_highlight.jpg" />
+    <Content Include="images\itineraryImages\0_results.jpg" />
+    <Content Include="images\itineraryImages\1_highlight.jpg" />
+    <Content Include="images\itineraryImages\1_results.jpg" />
+    <Content Include="images\itineraryImages\2_highlight.jpg" />
+    <Content Include="images\itineraryImages\2_results.jpg" />
+    <Content Include="images\itineraryImages\3_highlight.jpg" />
+    <Content Include="images\itineraryImages\3_results.jpg" />
     <Content Include="images\kids_200x200.jpg" />
     <Content Include="images\kids_45x45.jpg" />
     <Content Include="images\logo.png" />
@@ -100,6 +108,7 @@
     <Content Include="images\storelogo.png" />
     <Content Include="images\taylor.jpg" />
     <Content Include="images\transparent_bg.png" />
+    <Content Include="images\widelogo.png" />
     <Content Include="images\yelp_logo.png" />
     <Content Include="js\appBarManager.js" />
     <Content Include="js\controller.js" />
@@ -118,9 +127,6 @@
   <ItemGroup>
     <SDKReference Include="Bing.Maps.JavaScript, Version=1.113.0601.0" />
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\itineraryImages\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <!-- To modify your build process, add your task inside one of the targets below then uncomment

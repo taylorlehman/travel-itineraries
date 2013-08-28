@@ -1,15 +1,19 @@
 ﻿var DataSet =
 [
+    /**********************************************************/
+    /************** Seattle Through Food **********************/
+    /**********************************************************/
     {
         id: 0,
         ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
+        highlightBackgroundImageUrl: "/images/itineraryImages/0_highlight.jpg",
+        resultsImage: "/images/itineraryImages/0_results.jpg",
         authorId: 0,
         title: "Seattle through Food",
         summary: "The food you find in a city is often a reflection of it's culture.  Seattle is no exception.  Located on the pacific coast, Seattle is known for it's seafood and Asian food.  In addition, many local establishments try hard to practice sustainable food production.  You'll get to experience some of Seattle's best food on this trip.",
         location: "Seattle, WA",
         howmuch: "$$",
-        who: [1, 0, 1, 1, 1, 1, 0, 0],
+        who: [1, 0, 0, 1, 1, 1, 0, 0],
         highlights: [
             "Hipcooks Cooking Class",
             "Theo Chocolate Factory Tour",
@@ -452,44 +456,565 @@
             }
         ]
     },
+    /**************************************************************/
+    /************** Tourist, but not Trapped **********************/
+    /**************************************************************/
     {
         id: 1,
         ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
+        highlightBackgroundImageUrl: "/images/itineraryImages/1_highlight.jpg",
+        resultsImage: "/images/itineraryImages/1_results.jpg",
         authorId: 0,
-        title: "Sunburn Not Included",
-        summary: "Seattle's nature is legendary.  Located at the intersetion of mountains, oceans, rivers, islands, sounds, lakes, and canals, Seattle has much to offer the outdoor enthusiast.  This tour allows you to get a taste of if all.",
+        title: "Tourist, But Not Trapped",
+        summary: "Seattle's landmarks regularly appear in movies.  The city's edgy culture, combined with it's natural beauty make for many movie-ready photo opportunities.  This itinerary will take you to many of the most famous locations, and help you avoid the tourist traps along the way.  Know which sights to see and which to avoid, where to eat, and get some special insights about how to get the most out of your Seattle experience",
         location: "Seattle, WA",
-        howmuch: "$",
-        who: [1, 0, 1, 0, 0, 0, 0, 0],
+        howmuch: "$$",
+        who: [0, 0, 1, 0, 1, 1, 1, 0],
         highlights: [
-            "The most stunning views of Mount Rainier from Panhandle Gap",
-            "Sea Kayaking with Orca Whales in the San Juan Islands",
-            "10 miles of uninterrupted single track at Ranger Creek"
+            "Get a 360 mountain view from the top of the Space Needle",
+            "Eat sushi prepared by one of the apprentices from 'Jiro Dreams of Sushi'",
+            "Stand on the shoulders of giants -- at the Fremont Troll"
         ],
-        eventsList: []
+        eventsList: [
+            {
+                id: 0,
+                category: 4,
+                cost: "$$",
+                transportation: "Cabs, buses, the monorail, and the light rail will all get you within walking distance of the Market",
+                description: "A visit to Seattle without stopping at the Pike Place Market is like going to Paris and not seeing the Eiffel Tower - it's just not the same.  The Savor Seattle food tour is the best way to get the most out of your Pike Place experience.  The guides are knowledgable and funny and the tour includes a plethora of free samples.  You'll get to taste everything from salmon jerky to mini-donuts, to some of the best Chowder in the north west.",
+                title: "Pike Place Market Food Tour",
+                location1: "Starbucks",
+                location2: "Near 1st Ave. & Pike St.",
+                lat: 47.608995,
+                long: -122.340018,
+                day: "Friday",
+                starttime: 9,
+                endtime: 11,
+                tips: [
+                    "Come hungry and plan to leave full - you'll eat a lot of delicious food along the way!",
+                    "Save some room for the crab cakes at the last stop - you'll want to make sure not to miss these",
+                    "Make sure to save your ticket to use for discounts at all the stands you visited."
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/savor-seattle-food-tours-seattle-2"
+                    }
+                ],
+                website: "http://www.savorseattletours.com/tours/pikeplacemarket/"
+            },
+            {
+                id: 1,
+                category: 5,
+                cost: "$$",
+                transportation: "Find post Alley to the south of the market (past the gum wall!), and take a right on Union.  The acquarium is at the bottom of the hill.",
+                description: "Located at the edge of the puget sound, the Seattle Acquarium is a great way to peek under the water and learn more about the marine life in Washington State and beyond.  The acquarium is very hands on and features all the typical acquarium attractions -- including outdoor tanks for larger sea creatures.  The acquarium is very focused on kid-friendly, hands-on activities including open tidepools for you to get up-close-and-personal with",
+                title: "Seattle Aquarium",
+                location1: "1483 Alaskan Way Pier 59",
+                location2: "Seattle, WA",
+                lat: 47.607503, 
+                long: -122.342316,
+                day: "Friday",
+                starttime: 12,
+                endtime: 14,
+                tips: [
+                    "The exhibits are indoors and outdoors, so bring a jacket if the weather is cool",
+                    "Make sure to catch the sea otters outdoors - ridiculous amounts of cuteness",
+                    "Don't miss the exhibit where you can walk through the middle of the tank with the octopus in it!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/seattle-aquarium-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/seattle-aquarium/"
+                    }
+                ],
+                website: "http://www.seattleaquarium.org/"
+            },
+            {
+                id: 2,
+                category: 4,
+                cost: "$",
+                transportation: "Head a few blocks south along Alaskan Way to Eliot's Oyster House on Pier 56",
+                description: "Every day, starting at 3PM, Elliot's Oyster House has Osyter Happy Hour.  Oyster Happy Hour is a promotion where the Oysters start at the cheap, cheap price of 25 cents/oyster, and go up by 25 cents every half of an hour.  While you don't get a choice of what Oysters you get, who can turn down raw Oysters at this price?  The seating is first-come-first-served, so be prepared for a wait if you don't arrive early.",
+                title: "Elliot's Oyster House",
+                location1: "1201 Alaskan Way Pier 56",
+                location2: "Seattle, WA",
+                lat: 47.605369, 
+                long: -122.340186,
+                day: "Friday",
+                starttime: 15,
+                endtime: 16,
+                tips: [
+                    "Enjoy your oyster's with a refreshing Alaskan Amber beer",
+                    "While Oyster Happy Hour starts at 3PM, folks arrive early to put their name in - you'd be wise to do the same",
+                    "Grab a seat outside if you can for incredible views of the Olympic Mountains and the Puget Sound"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/elliotts-oyster-house-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/elliotts-oyster-house/"
+                    }
+                ],
+                website: "http://www.elliottsoysterhouse.com/"
+            },
+            {
+                id: 3,
+                category: 4,
+                cost: "$$$",
+                transportation: "You can walk to Battery and 2nd from Elliot's, but it's a good 30 minute walk with a major hill in the middle.  Cab likely easier",
+                description: "Jiro Dreams of Sushi is a movie about the art of making Sushi.  Jiro, the focus of the documentary, has been perfecting the art of making Sushi for many years.  The apprentices that train under him do so, without pay for ten years before they too have mastered the craft.  One of the apprentices who worked under Jiro, made his way to Seattle, and now serves Sushi at the already well-renowed Shiro's.",
+                title: "Shiro's",
+                location1: "2401 2nd Ave",
+                location2: "Seattle, WA 98121",
+                lat: 47.614925, 
+                long: -122.347031,
+                day: "Friday",
+                starttime: 17,
+                endtime: 19,
+                tips: [
+                    "The line for the sushi counter forms well before the restaurant opens at 5, so arrive early if you don't want to wait",
+                    "The Omakase is well priced, and thoughtfully prepared.  Highly recommended",
+                    "You can call ahead for reservations if you are OK just eating at a table"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/shiros-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/shiros/"
+                    }
+                ],
+                website: "http://www.shiros.com/"
+            },
+            {
+                id: 4,
+                category: 5,
+                cost: "$",
+                transportation: "Back down the hill you go!  You probably spotted the Great Wheel when you were at the acquarium earlier in the day, so I'll let you decide how to get there",
+                description: "The newest addition to the tourist-focused waterfront, the Great Wheel, stands 175 feet above the Puget Sound and provides stunning views of the Olympic Mountains, West Seattle, Space Needle, and Mount Rainier.  Each of it's enclosed gondolas can hold up to eight people, so you can bring the whole family along!",
+                title: "Seattle's Great Wheel",
+                location1: "1301 Alaskan Way",
+                location2: "Seattle, WA",
+                lat: 47.606028, 
+                long: -122.340773,
+                day: "Friday",
+                starttime: 20,
+                endtime: 21,
+                tips: [
+                    "Keep an eye out for the Ferries going back and forth between Seattle and the Olympic Penninsula",
+                    "Seattle's port, which can be seen from the wheel, is one of the largest on the northwest and regularly hosts large cargo ships and cruise ships",
+                    "Can you spot the Space Needle?  You'll be going there tomorrow!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/the-seattle-great-wheel-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/the-seattle-great-wheel/"
+                    }
+                ],
+                website: "http://seattlegreatwheel.com/"
+            },
+            {
+                id: 5,
+                category: 4,
+                cost: "$$",
+                transportation: "Located in the heart of downtown, most of the city's buses pass near by Lola and it's in walking distance of most major hotels",
+                description: "Lola is one of the many restaurants (as is Etta's, highlighted on the Savor Seattle Food Tour) in the Tom Douglas culinary empire.  Lola offers meditteranean-inspired takes on standard breakfast/brunch dishes, so you'll find lots of olives, feta, and garlic alongside your eggs and sausage.",
+                title: "Lola",
+                location1: "2000 4th Ave",
+                location2: "Seattle, WA 98121",
+                lat: 47.613342, 
+                long: -122.340140,
+                day: "Saturday",
+                starttime: 9,
+                endtime: 11,
+                tips: [
+                    "Ask for a seat near the Window so you can watch the city wake up",
+                    "Order the donuts. Just trust me - you'll be disappointed if you don't"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/lola-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/lola/"
+                    }
+                ],
+                website: "http://tomdouglas.com/index.php/restaurants/lola"
+            },
+            {
+                id: 6,
+                category: 5,
+                cost: "$$",
+                transportation: "From Lola, walk south along 4th to the nearby Westlake Center and hop on the monorail to the Seattle Center",
+                description: "While it seems like a futuristic tower symbolizing the technological achievements of Seattle, many folks are surprised that the tower was built for the 1962 world's fair.  The observation deck is 520' off of the ground and offers stunning 360 degree views of Seattle, the Cascade and Olympic Mountains, Mount Rainier, and the Puget Sound.",
+                title: "Space Needle",
+                location1: "400 Broad St",
+                location2: "Seattle, WA 98109",
+                lat: 47.620187, 
+                long: -122.349218,
+                day: "Saturday",
+                starttime: 11,
+                endtime: 12,
+                tips: [
+                    "If towers are your thing, consider buying the day+night pass so you can visit again after sunset",
+                    "Whatever you do, don't be tempted to eat at the restaurant - the only different between the restaurant and observation deck is overpriced, subpar food",
+                    "If you are a geospatial type, take the opportunity to orient yourself to the area when you're on top of the needle"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/space-needle-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/space-needle/"
+                    }
+                ],
+                website: "http://www.spaceneedle.com/"
+            },
+            {
+                id: 7,
+                category: 5,
+                cost: "$$",
+                transportation: "Just west of the space needle you'll find the Chihuily Museum",
+                description: "Dale Chihuily, a native of the Pacific Northwest, is a venice-trained glass artists who's incredible creations have been shown in museums worldwide.  The Chihuily exhibit gives you a chance to see the full breadth of his work in one location.  From flowers, to spheres, to plates, to boats, Chihuily's creativity can be seen in each piece he creates.",
+                title: "Chihuily Museum",
+                location1: "305 Harrison St",
+                location2: "Seattle, WA",
+                lat: 47.620548, 
+                long: -122.350545,
+                day: "Saturday",
+                starttime: 12,
+                endtime: 13,
+                tips: [
+                    "In the glass room where you can look up and see the space needle, they typically have folks with SLRs setup to take your picture and email you, for free!",
+                    "The gift shop at the end is filled with super-cool stuff and unlike most museum gift shops, worth a visit before you leave"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/chihuly-garden-and-glass-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/chihuly-garden-and-glass/"
+                    }
+                ],
+                website: "http://www.chihulygardenandglass.com/"
+            },
+            {
+                id: 8,
+                category: 4,
+                cost: "$$",
+                transportation: "From Chihuly, walk across broad and south on 4th.  Turn left on Denny and find Zeek's at the corner of Denny and 5th",
+                description: "Zeek's is one of Seattle's premium pizza chains serving exciting theme pizzas for every taste and preference.  The pizza's are large, the crust medium-thickness, and the toppings only the best quality.  In addition to pizza (yes, there is more to life than pizza), Zeeks serves a variety of salad's and side dishes to compliment your pie",
+                title: "Zeek's Pizza",
+                location1: "419 Denny Way",
+                location2: "Seattle, WA",
+                lat: 47.618501, 
+                long: -122.348004,
+                day: "Saturday",
+                starttime: 13,
+                endtime: 14,
+                tips: [
+                    "I'd recommend the cheery bomb - the sweet peppers and basil are a great balance for the delicious sausage, sauce, and cheese"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/zeeks-pizza-seattle-4"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/zeeks-pizza/"
+                    }
+                ],
+                website: "http://www.zeekspizza.com/locations/?location=belltown"
+            },
+            {
+                id: 9,
+                category: 5,
+                cost: "$$",
+                transportation: "From Zeek's, walk north on 5th Avenue until you cross Broad.  You'll see the ducks on your right-hand side",
+                description: "If you live in Seattle, chances are you see one of the duck boats at least once a day.  They are ubiquitous, noisy, and super fun.  Great for the whole family, your driver takes you around to the major sights in Seattle and the vehicle drives right into Lake Union to give you the view from the Water as well.  This is a great opportunity to get an overview of all the sights and sounds of Seattle.",
+                title: "Ride the Ducks!",
+                location1: "516 Broad St",
+                location2: "Seattle, WA",
+                lat: 47.621398, 
+                long: -122.347306,
+                day: "Saturday",
+                starttime: 15,
+                endtime: 17,
+                tips: [
+                    "Buy tickets online before your trip, but make sure to to purchase tickets for the trips leaving from Seattle Center"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/ride-the-ducks-of-seattle-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "https://foursquare.com/v/ride-the-ducks/"
+                    }
+                ],
+                website: "http://www.ridetheducksofseattle.com/"
+            },
+            {
+                id: 10,
+                category: 4,
+                cost: "$$$",
+                transportation: "A 5min cab ride or 20 minute walk will get you here from Seattle Center.  Walk south to Denny, East to Westlake, and North to Flying Fish",
+                description: "Flying Fish has been a staple in Seattle for almost 19 years.  Focusing on serving \"fresh fish, simply prepared\", Flying Fish is a great place to get a taste of the delicious pacific northwest seafood.  Chef Christine Keff won a James Beard Award in 1999, and after eating here, you'll surely understand why.  Previously located in the Belltown Neighborhood, Flying Fish's new South Lake Union home is spacious, warm, modern, and inviting.",
+                title: "Flying Fish",
+                location1: "300 Westlake Ave",
+                location2: "Seattle, WA 98109",
+                lat: 47.621003, 
+                long: -122.338316,
+                day: "Saturday",
+                starttime: 18,
+                endtime: 20,
+                tips: [
+                    "One of the most delicious dishes on the menu is the whole rockfish.  It's servered with a variety of herbs and rice paper to make your own delicious rolls.",
+                    "For no apparent reason, the cell service at Flying Fish is terrible.  Use it as an opportunity to disconnect and enjoy a great dinner!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/flying-fish-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/a2pDU3"
+                    }
+                ],
+                website: "http://www.flyingfishseattle.com/"
+            },
+            {
+                id: 11,
+                category: 5,
+                cost: "$",
+                transportation: "Hop in a cab and tell them to take you to Kerry Park.  Then sit back and watch the city zip by",
+                description: "Almost every postcard you'll ever see of Seattle has a photo from Kerry Park slapped on the front of it.  This iconic view halfway up Queen Anne Hill provides stunning views of the Space Needle, downtown, and, if you're lucky, Mount Rainier.  Be prepared for crowds, and for parking to be a mess (if you drive).",
+                title: "Kerry Park",
+                location1: "211 W Highland Dr",
+                location2: "Seattle, WA 98109",
+                lat: 47.629568, 
+                long: -122.359916,
+                day: "Saturday",
+                starttime: 20,
+                endtime: 21,
+                tips: [
+                    "Stand at the edge of the wall and look down the hill.  Now go find the YouTube video of the skier doing a flip over the ledge.",
+                    "To find another, equally stunning, view of the Puget Sound and the Olympic mountains, follow Highland drive west for a few blocks until the bend in the road.  Enjoy the views from the benches there sans Kerry Park crowds."
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/kerry-park-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8HcVvO"
+                    }
+                ],
+                website: "http://www.seattle.gov/parks/park_detail.asp?ID=342"
+            },
+            {
+                id: 12,
+                category: 4,
+                cost: "$$",
+                transportation: "From downtown, you'll need to take a bus or cab.  The 40 or 62 buses will get you there from downtown.  If you're driving, use Eliot Ave W/15th Street and get off at Leary.",
+                description: "Located in charming Ballard, Bastille is a delightful restaurant modeled after the cafes in Paris.  The food is delightfully french, the waitstaff friendly, and the atmosphere relaxing and inviting.  The glass-enclosed patio provides that al-fresco feel but still provides protection from the elements in Seattle.  Join a mix of hip yuppies and the stroller set for a slow and relaxing start to your Sunday morning.",
+                title: "Bastille",
+                location1: "5307 Ballard Ave NW",
+                location2: "Seattle, WA 98107",
+                lat: 47.666494,
+                long: -122.383515,
+                day: "Sunday",
+                starttime: 10,
+                endtime: 12,
+                tips: [
+                    "Brunch is only served on Sundays, and draws a crowd",
+                    "After your brunch, take some time to explore the Ballard farmer's market.  Is the guy playing Zelda songs on his accordian there today?"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/bastille-cafe-and-bar-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/Fewwj"
+                    }
+                ],
+                website: "http://bastilleseattle.com/"
+            },
+            {
+                id: 13,
+                category: 5,
+                cost: "$",
+                transportation: "It's about a 20 minute walk from Bastille to the Ballard Locks, but a relatively flat one.  Follow Ballard Ave north until you hit Market.  Take a left at Market and head west, you'll find the locks on your left about half a mile down the street",
+                description: "The Ballard Locks has a number of elements worth checking out.  First, there is the park and gardens which makes for a relaxing place to lounge around on a sunny afternoon.  Next there is the Locks themselves which offer a close-up view of how boats move in and out of lake Union and the surrounding areas.  Thirdly, there is the fish ladder which provides a way for fish to swim upstream when it's time for them to go lay their eggs in the mountain streams.",
+                title: "Ballard Locks",
+                location1: "3015 NW 54th St.",
+                location2: "Seattle, WA 98107",
+                lat: 47.667662, 
+                long: -122.396554,
+                day: "Sunday",
+                starttime: 13,
+                endtime: 14,
+                tips: [
+                    "While boats are in the locks waiting to start the process, chat up the boat owners.  Ask them where they are going and about their boat.  But once the process starts, let them focus on their task"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/hiram-m-chittenden-locks-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/5j2DQ6"
+                    }
+                ],
+                website: "http://www.nws.usace.army.mil/Missions/CivilWorks/LocksandDams/ChittendenLocks.aspx"
+            },
+            {
+                id: 14,
+                category: 5,
+                cost: "$",
+                transportation: "It's a long walk from the Locks to Fremont, so grab the #40 bus at get off at the Lenin Statue, or drive/cab",
+                description: "Fremont, playfully calls itself the center of the universe.  It's certainly the center of the strange-monument universe!  Start at the Lenin statue at the corner of N36th and Evanston, and learn about why this large monument to communism came to reside in Fremont.  Walk south on Evanston for a block and check out the rocketship.  Again, read the posted sign to learn all about it.  Finally, retrace your steps to Lenin and follow N36th Street up the hill until you find the troll under the highway",
+                title: "Fremont Monuments",
+                location1: "Evanston and N36th Street",
+                location2: "Fremont, Seattle, WA",
+                lat: 47.651415,
+                long: -122.351128,
+                day: "Sunday",
+                starttime: 15,
+                endtime: 16,
+                tips: [
+                    "Climb around on the Fremont troll and try to get a shot of you picking his nose",
+                    "To extend your tour, try to find the \"Interurban\" statue at 34th and Fremont Ave N - it's a tradition for folks to dress up the statues in celebrations of birthdays, births, etc",
+                    "If you're here on Sunday afternoon, check out the Fremont market on 34th Street"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/the-fremont-troll-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/1NPUqZ"
+                    }
+                ],
+                website: "http://fremont.com/about/"
+            },
+            {
+                id: 15,
+                category: 4,
+                cost: "$$",
+                transportation: "Revel is right on the main drag in Fremont (36th Street), so find your way there from where ever you've ended up",
+                description: "Revel, and it's sister restaurant, Joule have been staples in Seattle's busy asian-fusion restaurant scene.  The restaurant is run by chef-and-owner couple Rachel Yang and Seif Chirchi who both learned to cook from the accomplished Alain Ducasse.  Revel's interior is hip, clean, and modern and the open kitchen gives a great view of all the dishes being prepared - it's like watching a cooking show while you eat!",
+                title: "Revel",
+                location1: "403 N 36th Street",
+                location2: "Seattle, WA 98103",
+                lat: 47.652160, 
+                long: -122.354320,
+                day: "Sunday",
+                starttime: 17,
+                endtime: 19,
+                tips: [
+                    "If it's nice, try to grab a seat on the back deck.  It not, the counter is a great option to watch the food get made right before your eyes"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/revel-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/gCOT2x"
+                    }
+                ],
+                website: "http://www.revelseattle.com/"
+            },
+            {
+                id: 16,
+                category: 5,
+                cost: "$",
+                transportation: "From Revel, follow 36th Street until it intersects with 34th, right before the Fremont bridge.  Turn left and follow 34th.  When 34th intersects with the Burke Gillman trail, follow the trail to Gasworks Park",
+                description: "Gas Works park is the location for Seattle's yearly 4th of July celebration.  Located on the north banks of Lake Union, this park offers lots of green space to spread out and is highlighted by a large grassy knoll that is a perfect location to sit and watch the sun set over the Seattle skyline.  One of the neater elements of this park is the remaining structure of the gas works that was located here before it became a park",
+                title: "Gas Works Park",
+                location1: "2101 N Northlake Way",
+                location2: "Seattle, WA 98103",
+                lat: 47.646840, 
+                long: -122.335051,
+                day: "Sunday",
+                starttime: 19,
+                endtime: 20,
+                tips: [
+                    "If you're hungry for dessert after eating at Revel, stop at Old School Frozen Custard along the way to grab some custard for the walk"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/gas-works-park-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/gCOT2x"
+                    }
+                ],
+                website: "http://www.seattle.gov/parks/park_detail.asp?ID=293"
+            }
+        ]
     },
+    /**************************************************************/
+    /*************** Climb all the Mountains **********************/
+    /**************************************************************/
     {
         id: 2,
         ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
+        highlightBackgroundImageUrl: "/images/itineraryImages/2_highlight.jpg",
+        resultsImage: "/images/itineraryImages/2_results.jpg",
         authorId: 0,
-        title: "The Tourist Anti-Trap",
-        summary: "This trip is for the sightseerer who doesn't want to fall into the dreaded Tourist Trap.  Navigate the city's sights with ease, always knowing the best things to do, best places to eat, and all the tricks you need to ensure no one takes advantage of you. ",
+        title: "Climb all the Mountains",
+        summary: "Seattle's natural beauty is what drives folks from all over the world to move here.  The Sound, the Mountains, and everything in between is simply stunning and offers adventures all year long.  This trip will give you a chance to hike, bike, and kayak you way across western Washington.",
         location: "Seattle, WA",
-        howmuch: "$$",
-        who: [0, 0, 0, 0, 1, 1, 0, 0],
+        howmuch: "$",
+        who: [1, 0, 0, 1, 0, 0, 0, 0],
         highlights: [
-            "Eat your way through the Pike Place Market with the Savor Seattle food tour",
-            "Take a picture standing on the head of the Fremont Troll",
-            "See the incredible creations of Dale Chihuily at the Chihuily museum"
+            "Take in stunning views of Mount Rainier while hiking to Panhandle Gap",
+            "Suffer through 10 miles of climbing to enjoy just as much uninterupted downhill single track",
+            "Enjoy a day kayaking in the puget sound and hiking the mountains of the San Juan Islands"
         ],
         eventsList: []
     },
+    /**************************************************************/
+    /****************** Boozy Beach Weekend ***********************/
+    /**************************************************************/
     {
         id: 3,
         ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
+        highlightBackgroundImageUrl: "/images/itineraryImages/3_highlight.jpg",
+        resultsImage: "/images/itineraryImages/3_results.jpg",
         authorId: 0,
         title: "Boozy Beach Weekend",
         summary: "Let's be serious.  Every once in awhile, you just want to spend a weekend sleeping in, enjoying delicious brunch, lounging on the beach, and enjoying a good cocktail with friends until late in the evening.  Friend, look no further.",
@@ -498,271 +1023,9 @@
         who: [0, 0, 0, 1, 1, 0, 0, 0],
         highlights: [
             "Feel like a local when you have drinks at a number of Seattle speakeasys",
-            "Enjoy a view of Mountain Raininer, the city skyline, and the Olympic mountains while lounging on the beach",
-            "Enjoy some of Seattle's hippest restaurants, including the unique Poppy"
+            "Enjoy a view of Mountain Rainier, the city skyline, and the Olympic mountains while lounging on the beach",
+            "Enjoy some of Seattle's hippest restaurants, including thalis at Poppy"
         ],
         eventsList: []
     }
 ]; //End of the DataSet Array
-
-
-/*  OLD DATA FOR REFERENCE, IF NECESSARY
-,
-    {
-        id: 1,
-        ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
-        authorId: 0,
-        title: "Keep Berkeley Weird",
-        summary: "Explore all of Seattle's gorgeous and little-known beaches.  Make sure to bring your sun screen and swim trunks and get ready to relax!  You'll want to make sure to visit in August to make the most of this trip.",
-        location: "Seattle, WA",
-        howmuch: "$",
-        who: [1, 1, 0, 0, 0, 0, 0, 0],
-        highlights: [
-            "Lunch at Paseo",
-            "Hiking and Picnicing at Discovery Park",
-            "BBQ at Madison Beach"
-        ],
-        eventsList: [
-            {
-                id: 0,
-                category: 2,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "Lunch at Paseo",
-                location1: "6226 Seaview Ave NW",
-                location2: "Seattle, WA",
-                day: "Friday",
-                starttime: 13,
-                endtime: 14,
-                tips: [
-                    "The Caribbean Roast is a absolute must get",
-                    "**CASH ONLY**"
-                ],
-                moreTips: [],
-                website: "http://www.yelp.com/biz/paseo-seattle-2",
-            },
-            {
-                id: 1,
-                category: 3,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "An Afternoon at Golden Gardens",
-                location1: "8499 Seaview Pl Nw",
-                location2: "Seattle, WA",
-                day: "Saturday",
-                starttime: 14,
-                endtime: 16,
-                tips: [
-                    "If sand isn't your style, locate the large grassy area at the far end",
-                    "There are public restrooms in the building at the far end of the beach, but not for the faint of heart!",
-                    "If you are into beach volleyball, come prepared to spar with some of Seattle's best players!"
-                ],
-                moreTips: [],
-                website: "http://www.seattle.gov/parks/park_detail.asp?ID=243",
-            },
-            {
-                id: 2,
-                category: 4,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "Hike to Melakwa Lake",
-                location1: "TBD",
-                location2: "TBD",
-                day: "Sunday",
-                starttime: 8,
-                endtime: 16,
-                tips: [
-                    "This is a rock trek, so make sure to bring along some hard-soled hiking boots",
-                    "If 9 miles round trip isn't enough to whet your appetite, try venturing on to Kaleetan Peak",
-                    "A northwest forest pass is required to park at this location.  Pick one up at the gas stations in North Bend."
-                ],
-                moreTips: []
-            },
-            {
-                id: 3,
-                category: 5,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "Burders at Uneedaburger",
-                location1: "TBD",
-                location2: "TBD",
-                day: "Sunday",
-                starttime: 17,
-                endtime: 18,
-                tips: [
-                    "If sand isn't your style, locate the large grassy area at the far end",
-                    "There are public restrooms in the building at the far end of the beach, but not for the faint of heart!",
-                    "If you are into beach volleyball, come prepared to spar with some of Seattle's best players!"
-                ],
-                moreTips: []
-            },
-            {
-                id: 4,
-                category: 6,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "Margaritas at Pecado Bueno",
-                location1: "TBD",
-                location2: "TBD",
-                day: "Sunday",
-                starttime: 18,
-                endtime: 20,
-                tips: [
-                    "If sand isn't your style, locate the large grassy area at the far end",
-                    "There are public restrooms in the building at the far end of the beach, but not for the faint of heart!",
-                    "If you are into beach volleyball, come prepared to spar with some of Seattle's best players!"
-                ],
-                moreTips: [],
-                website: "http://www.seattle.gov/parks/park_detail.asp?ID=243",
-            }
-        ]
-    },
-    {
-        id: 2,
-        ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
-        authorId: 0,
-        title: "LES Gallery Tour",
-        summary: "Seattlites love their bikes.  When the sun is shining, bicycles fill the roads and the bike trails.  So hop on your rental bike and explore the great neighborhoods north of Lake Union.  You'll get to enjoy some of Seattle's best food and burn off all the calories on your bike.  A guilt-free day!",
-        location: "Seattle, WA",
-        howmuch: "$$",
-        who: [1, 1, 1, 1, 0, 0, 0, 0],
-        highlights: [
-            "Brunch at Whale Wins",
-            "Theo Chocolate Factory Tour",
-            "Walk on the beach at Golden Gardens"
-        ],
-        eventsList: [
-            {
-                id: 0,
-                category: 0,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "Lunch at Paseo",
-                location1: "6226 Seaview Ave NW",
-                location2: "Seattle, WA",
-                day: "Friday",
-                starttime: 13,
-                endtime: 14,
-                tips: [
-                    "The Caribbean Roast is a absolute must get - it's gooey, delicious, and requires ALOT of napkins.  The sauce is to die for.",
-                    "This establishment is cash only, so make sure to bring something a wallet full of benjamins.  Leave the credit card at home.",
-                    "Look for the color pink - you can't miss the building. also, bring some sunglasses for the outdoor seating - hand sanitizer too."
-                ],
-                moreTips: [
-                    {
-                        tipProvider: 0,
-                        url: "http://www.yelp.com/biz/paseo-seattle-2",
-                    }
-                ]
-            },
-            {
-                id: 1,
-                category: 1,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "An Afternoon at Golden Gardens",
-                location1: "8499 Seaview Pl Nw",
-                location2: "Seattle, WA",
-                day: "Saturday",
-                starttime: 14,
-                endtime: 16,
-                tips: [
-                    "If sand isn't your style, locate the large grassy area at the far end",
-                    "There are public restrooms in the building at the far end of the beach, but not for the faint of heart!",
-                    "If you are into beach volleyball, come prepared to spar with some of Seattle's best players!"
-                ],
-                moreTips: [
-                    {
-                        tipProvider: 0,
-                        url: "http://www.yelp.com/biz/paseo-seattle-2"
-                    },
-                    {
-                        tipProvider: 1,
-                        url: "https://foursquare.com/v/paseo-caribbean-restaurant/"
-                    }
-                ],
-                website: "http://www.seattle.gov/parks/park_detail.asp?ID=243",
-            }
-        ]
-    },
-    {
-        id: 3,
-        ishighlight: true,
-        highlightBackgroundImageUrl: "/images/seattle_gasworks_crop.jpg",
-        authorId: 0,
-        title: "A walk though history",
-        summary: "Seattlites love their bikes.  When the sun is shining, bicycles fill the roads and the bike trails.  So hop on your rental bike and explore the great neighborhoods north of Lake Union.  You'll get to enjoy some of Seattle's best food and burn off all the calories on your bike.  A guilt-free day!",
-        location: "Boston, MA",
-        howmuch: "$$",
-        who: [1, 0, 0, 1, 0, 0, 0, 0],
-        highlights: [
-            "Brunch at Whale Wins",
-            "Theo Chocolate Factory Tour",
-            "Walk on the beach at Golden Gardens"
-        ],
-        eventsList: [
-            {
-                id: 0,
-                category: 0,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "Lunch at Paseo",
-                location1: "6226 Seaview Ave NW",
-                location2: "Seattle, WA",
-                day: "Friday",
-                starttime: 13,
-                endtime: 14,
-                tips: [
-                    "The Caribbean Roast is a absolute must get - it's gooey, delicious, and requires ALOT of napkins.  The sauce is to die for.",
-                    "This establishment is cash only, so make sure to bring something a wallet full of benjamins.  Leave the credit card at home.",
-                    "Look for the color pink - you can't miss the building. also, bring some sunglasses for the outdoor seating - hand sanitizer too."
-                ],
-                moreTips: [
-                    {
-                        tipProvider: 0,
-                        url: "http://www.yelp.com/biz/paseo-seattle-2",
-                    }
-                ]
-            },
-            {
-                id: 1,
-                category: 1,
-                cost: "$",
-                transportation: "Follow the Burke Gilman trail from Fremont, through Ballard, until you reach the coast.  Paseo is the pink building just past Ray's Boat House.",
-                description: "Paseo is a Seattle institution.  It's charm is it's quirkiness: long lines, sell-until-we-run-out of food mentality, and closing the business during the winter months are just a few of the hallmarks of this sandwich shop.  You'll find that you have to bus your own table, enjoy your meal on paper and plastic, but that doesn't take away from the taste.  The sandwiches are lick-your-fingers good (and lick you will - they are messy!).  If you want, you can take your sandwich to-go and head a bit further down the road and eat it at Golden Gardens park.",
-                title: "An Afternoon at Golden Gardens",
-                location1: "8499 Seaview Pl Nw",
-                location2: "Seattle, WA",
-                day: "Saturday",
-                starttime: 14,
-                endtime: 16,
-                tips: [
-                    "If sand isn't your style, locate the large grassy area at the far end",
-                    "There are public restrooms in the building at the far end of the beach, but not for the faint of heart!",
-                    "If you are into beach volleyball, come prepared to spar with some of Seattle's best players!"
-                ],
-                moreTips: [
-                    {
-                        tipProvider: 0,
-                        url: "http://www.yelp.com/biz/paseo-seattle-2"
-                    },
-                    {
-                        tipProvider: 1,
-                        url: "https://foursquare.com/v/paseo-caribbean-restaurant/"
-                    }
-                ],
-                website: "http://www.seattle.gov/parks/park_detail.asp?ID=243",
-            }
-        ]
-    }
-    */
