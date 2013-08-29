@@ -1195,7 +1195,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-28T05:17:06.547</Modified>
+      <Modified>2013-08-29T02:24:22.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -1207,15 +1207,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-08-28T04:53:43.504</Modified>
+      <Modified>2013-08-29T02:21:45.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
-      <Modified>2013-08-28T04:44:37.491</Modified>
+      <Modified>2013-08-29T02:27:59.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\searchState.js">
       <PackagePath>js\searchState.js</PackagePath>
-      <Modified>2013-08-27T01:01:01.351</Modified>
+      <Modified>2013-08-29T02:33:15.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\userData.js">
       <PackagePath>js\userData.js</PackagePath>
@@ -1223,11 +1223,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\utilities.js">
       <PackagePath>js\utilities.js</PackagePath>
-      <Modified>2013-08-26T19:55:50.878</Modified>
+      <Modified>2013-08-29T02:33:36.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\worker.js">
       <PackagePath>js\worker.js</PackagePath>
-      <Modified>2013-08-20T01:32:23.691</Modified>
+      <Modified>2013-08-29T02:31:44.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

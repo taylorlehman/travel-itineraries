@@ -4,6 +4,7 @@
     //Builds the horizontal picture layout for the WHO items
     //associated with this itinerary or search query
     function buildWhoHorizontalLayout(containerElement, whoArray) {
+        containerElement.innerHTML = "";
         var numberElementsAdded = 0;
         var numberElementsOverflow = 0;
 

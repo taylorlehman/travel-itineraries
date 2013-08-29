@@ -497,6 +497,7 @@
             tempHighlightDiv.id = "RESULTSGRID_empty_highlights_div_" + this.resultsList[i].id.toString();
             this.AttachOnClick(tempHighlightDiv, "empty_result_highlight_click");
             tempHighlightDiv.addEventListener("click", "empty_result_highlight_click");
+            tempHighlightDiv.style.backgroundImage = "url('" + this.resultsList[i].highlightBackgroundImageUrl + "')";
             
             var tempHighlightH1 = document.createElement("h1");
             tempHighlightH1.classList.add("RESULTSGRID_empty_highlights_h1");
