@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-28T05:39:09.414</Modified>
+      <Modified>2013-08-29T16:42:18.676</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -1207,7 +1207,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-08-29T02:21:45.543</Modified>
+      <Modified>2013-08-30T18:17:35.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
@@ -1223,7 +1223,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\utilities.js">
       <PackagePath>js\utilities.js</PackagePath>
-      <Modified>2013-08-29T02:33:36.068</Modified>
+      <Modified>2013-08-29T02:42:28.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\worker.js">
       <PackagePath>js\worker.js</PackagePath>

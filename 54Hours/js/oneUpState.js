@@ -252,7 +252,7 @@
     function showMiniDetailsNavArrows() {
         //Configure the previous arrow
         if (this.selectedEventId != this.currentViewFirstEventId) {
-            this.show_ONEUPGRID_details_content_mini_nav_div(document.getElementById("ONEUPGRID_details_content_mini_previous_div"), "ONEUPGRID_details_content_mini_next_div_click", true);
+            this.show_ONEUPGRID_details_content_mini_nav_div(document.getElementById("ONEUPGRID_details_content_mini_previous_div"), "ONEUPGRID_details_content_mini_previous_div_click", true);
         }
 
         //Configure the next arrow
@@ -1217,6 +1217,7 @@
 
                 //Set the display on each button
                 for (var i = 0; i < buttonArray.length; i++) {
+                    buttonArray[i].style.opacity = "1";
                     buttonArray[i].style.display = "-ms-flexbox";
                 }
 
@@ -1520,13 +1521,17 @@
         this.rePopulateMiniDetailsTitleWithAnimation();
 
         //Do the right thing with the next and previous arrows
+        var element = document.getElementById("ONEUPGRID_details_content_mini_previous_div");
         if (this.selectedEventId == this.currentViewFirstEventId) {
-            var element = document.getElementById("ONEUPGRID_details_content_mini_previous_div");
-            this.hide_ONEUPGRID_details_content_mini_nav_div(element, false);
-        } else if (this.selectedEventId == this.currentViewLastEventId) {
-            var element = document.getElementById("ONEUPGRID_details_content_mini_next_div");
             this.hide_ONEUPGRID_details_content_mini_nav_div(element, false);
         }
+
+        element = document.getElementById("ONEUPGRID_details_content_mini_next_div");
+        if (this.selectedEventId == this.currentViewLastEventId) {
+            this.hide_ONEUPGRID_details_content_mini_nav_div(element, false);
+        }
+
+        this.showMiniDetailsNavArrows();
     };
 
     function transitionDetailsFullToMini() {
@@ -1670,6 +1675,13 @@
         document.getElementById("ONEUPGRID_header_who").innerHTML = "";
         document.getElementById("ONEUPGRID_header").style.opacity = "0";
         document.getElementById("ONEUPGRID_header").style.display = "none";
+
+        //Clear the map nav buttons
+        var elementIDArray = ["ONEUPGRID_mapnav_all", "ONEUPGRID_mapnav_fri", "ONEUPGRID_mapnav_sat", "ONEUPGRID_mapnav_sun"];
+        for (var i = 0; i < elementIDArray.length; i++) {
+            document.getElementById(elementIDArray[i]).style.opacity = "0";
+            document.getElementById(elementIDArray[i]).style.display = "none";
+        }
     };
 
     function reset() {
