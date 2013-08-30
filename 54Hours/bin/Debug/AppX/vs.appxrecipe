@@ -5,7 +5,7 @@
     <WindowsUser>Taylor</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>DB72859D5EBE6C71A3FE83C12B8A7F6FFBFF77C47EE8A6933ECE4148D88D5FF0</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F7075A845D4BF622DCA589137E93DE677E1EFE000DF480695AAD162F591C11D8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_1.0.0.0_neutral__hxaws8gg03xft</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_hxaws8gg03xft!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545</RegisteredPackageID>
@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-29T16:42:18.676</Modified>
+      <Modified>2013-08-30T22:23:12.013</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -1160,7 +1160,7 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T19:30:08.000</Modified>
+      <Modified>2013-08-30T22:22:51.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
@@ -1170,7 +1170,7 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-07-26T19:30:08.000</Modified>
+      <Modified>2013-08-30T22:20:15.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\transparent_bg.png">
       <PackagePath>images\transparent_bg.png</PackagePath>
@@ -1195,7 +1195,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-29T02:24:22.664</Modified>
+      <Modified>2013-08-30T23:05:12.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -1207,7 +1207,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-08-30T18:17:35.215</Modified>
+      <Modified>2013-08-30T21:13:54.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
@@ -1231,7 +1231,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-08-28T05:39:08.978</Modified>
+      <Modified>2013-08-30T22:23:10.757</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

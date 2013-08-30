@@ -1005,7 +1005,253 @@
             "Suffer through 10 miles of climbing to enjoy just as much uninterupted downhill single track",
             "Enjoy a day kayaking in the puget sound and hiking the mountains of the San Juan Islands"
         ],
-        eventsList: []
+        eventsList: [
+            {
+                id: 0,
+                category: 0,
+                cost: "$",
+                transportation: "From Seattle, make your way (via car) to the White River entrance to the park.  Follow Sunrise Rd for 4 miles until you reach the trail head (on your left) near Fryingpan Creek",
+                description: "Panhandle Gap provides the perfect grunt-view ratio for an adventurous day hiker looking to explore Rainier.  Taking you through forest, meadows, snow fields, and over streams and rocky passes, this hike has it all.  The views of Mount Tainier are prevelant throughout, and when you reach the top of the pass, it's a perfec spot to enjoy your lunch while you gaze out over the southern slopes of the mountain.  ",
+                title: "Panhandle Gap Hike",
+                location1: "Mount Rainier NP",
+                location2: "Sunrise Area",
+                lat: 46.888103, 
+                long: -121.610522,
+                day: "Friday",
+                starttime: 8,
+                endtime: 19,
+                tips: [
+                    "Get there early to get one of the limited parking spots.  If not, you can just join everyone else along the road",
+                    "For some basic warm food and clean bathrooms (and stellar Mount Rainier views), continue to the end of Sunrise road to the Sunrise view point.",
+                    "Lots of glacade options available on the snowfields at the top!"
+                ],
+                moreTips: [],
+                website: "http://www.wta.org/go-hiking/hikes/panhandle-gap"
+            },
+            {
+                id: 1,
+                category: 4,
+                cost: "$",
+                transportation: "Stop at RoRo on the way back from the mountain",
+                description: "Perfect post-day-outdoors food!  RoRos servers all your BBQ favorites (brisket, pulled pork, baked beans, corn bread, etc) in an unassuming building near Lake Union.  They have a great selection of beers and six different BBQ sauces to try on your order.",
+                title: "RoRo BBQ and Grill",
+                location1: "3620 Stone Way N",
+                location2: "Seattle, WA 98103",
+                lat: 47.651232, 
+                long: -122.342558,
+                day: "Friday",
+                starttime: 20,
+                endtime: 21,
+                tips: [
+                    "Take time to sample the sauces before you smoother your meal with it",
+                    "On a warm evening, it's fun to sit outside and watch the Duck Boats full of tourists go by"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/roro-bbq-and-grill-seattle-6"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/5yoaQC"
+                    }
+                ],
+                website: "http://rorobbq.webs.com/"
+            },
+            {
+                id: 2,
+                category: 3,
+                cost: "$",
+                transportation: "Just walk across the street",
+                description: "To really get the feel for the influence that the local finishing industry has on Seattle, you need to visit one of the many fisherman's bars that can be found along the water.  The Pacific Inn, or, as the locals call it, the PI, is a divey fisherman bar that has a good mix of bearded fisherman and north-Seattle 20-somethings.  Grab a drink and head to the back deck to enjoy a cool Seattle summer evening",
+                title: "The Pacific Inn",
+                location1: "3501 Stone Way North",
+                location2: "Seattle, WA 98103",
+                lat: 47.649534, 
+                long: -122.342838,
+                day: "Friday",
+                starttime: 21,
+                endtime: 23,
+                tips: [
+                    "One of the best parts about the PI is that it has woodchuck, a Vermont-brewed hard cider on tap",
+                    "The kitchen is open late and makes a mean set of cheese sticks and wings"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/pacific-inn-pub-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8yavs2"
+                    }
+                ],
+                website: null
+            },
+            {
+                id: 3,
+                category: 0,
+                cost: "$",
+                transportation: "Load your bikes onto your car and head back toward Mt Rainier ( ",
+                description: "Remember that scene from Return of a Jedi with the Ewoks battling the Storm Troopers?  Well, get ready to recreate it on this stunning descent.  After 10 miles of climbing on various FRs (details on the website), you are rewarded with a solid 1-2 hours worth of uninterrupted XC single track that's down the whole way.  While there are some gnarly switchbacks that will probably make you hop off your bike from time-to-time, that's the exception and not the rule on this trail.",
+                title: "Ranger Creek Mountain Biking",
+                location1: "Forest Service Road 72 and Rt 410",
+                location2: "Greenwater, WA",
+                lat: 47.092377, 
+                long: -121.584988,
+                day: "Saturday",
+                starttime: 8,
+                endtime: 18,
+                tips: [
+                    "Don't underestimate the climb.  It's steep, consistent, and long.  It's a multi-Gu kind of climb."
+                ],
+                moreTips: [],
+                website: "http://www.singletracks.com/bike-trails/ranger-creek.html"
+            },
+            {
+                id: 4,
+                category: 4,
+                cost: "$",
+                transportation: "Stop at Uneeda burger on the way back from the mountain",
+                description: "Burgers.  Juicy, deliciously prepared burgers.  Fresh, creative toppings like clinatro and pico or truffle, mushrooms, and gruyere.  That sound like your kind of meal?  Then make a bee-line for Uneeda burger.  Order your burger and a local brew at the counter and find a picnic table and wait for the wait-staff to bring your burger to you.  On a hot summer day, the covered deck is the perfect mix of outdoor dining and protection from the sun",
+                title: "Uneeda burger",
+                location1: "4302 Fremont Ave N",
+                location2: "Seattle, WA 98103",
+                lat: 47.659435, 
+                long: -122.349969,
+                day: "Saturday",
+                starttime: 19,
+                endtime: 20,
+                tips: [
+                    "If you're not in the mood for a post-ride victory beer, try a Jones Soda (hint: get the lavender)!",
+                    "The #5 (Sonora) or the #8 (Crimini Mushrooms) are personal favorites"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/uneeda-burger-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/f0zpeY"
+                    }
+                ],
+                website: "http://www.uneedaburger.com/"
+            },
+            {
+                id: 5,
+                category: 4,
+                cost: "$",
+                transportation: "See all the people having fun across the street?  That's your next stop.  Go!",
+                description: "Pecado Bueno is everything a mexican themed bar should be: laid back, friendly, with lots of outdoor seating.  Picado Beuno is a no-fuss bar that manages to attrack a non-toolish crowd.  Grab a double margharita and some nachos and find a place for yourself at the ourdoor fire pit to make some new friends or enjoy the company of old ones.",
+                title: "Pecado Bueno",
+                location1: "4307 Fremont Ave N",
+                location2: "Seattle, WA 98103",
+                lat: 47.659269, 
+                long: -122.350071,
+                day: "Saturday",
+                starttime: 20,
+                endtime: 22,
+                tips: [
+                    "The bartenders are super-friendly and love to make you special drinks.  Just tell them what you like, and hang on for the ride"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/pecado-bueno-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/qRIK1I"
+                    }
+                ],
+                website: "http://pecadobueno.com/"
+            },
+            {
+                id: 6,
+                category: 0,
+                cost: "$",
+                transportation: "You'll probably want a car for this one.  From Seattle, head north and follow signs for anacortes",
+                description: "The Washington State Ferrys are such a great way to get around.  Here's how the process works.  You'll join the line of cars waiting for the ferry (hopefully you start in the parking lot), you'll purchase a ticket as you drive through the ticket booth, and then you wait.  When the cars in front of you start moving, following the attendants until you are parked on the ferry.  When it's time to leave, do the process in reverse!",
+                title: "Ferry to Orcas Island",
+                location1: "2100 Ferry Terminal Rd",
+                location2: "Anacortes, WA 98221",
+                lat: 48.507195, 
+                long: -122.677854,
+                day: "Sunday",
+                starttime: 8,
+                endtime: 9,
+                tips: [
+                    "Make sure to purchase a ticket to Orcas Island, or else you'll have to find your own adventure",
+                    "If you see a large line up of cars on the side of the road, that's your queue to pull over and start waiting.  Don't think you can get around it - there isn't a better way.  The earlier you arrive, the less waiting",
+                    "Explore the ferry.  Take a look at all the decks, and spend lots of time on the top deck taking pictures.  On the way home, all you'll want to do is sleep!"
+                ],
+                moreTips: [],
+                website: "http://www.wsdot.com/ferries/schedule/ScheduleDetailByRoute.aspx?schedrouteid=1570"
+            },
+            {
+                id: 7,
+                category: 0,
+                cost: "$$",
+                transportation: "From the Ferry Terminal, take Orcas Road to Eastsound.  From Eastsound, take Olga Road until Point Lawrence Rd.  Follow Point Lawrence Road to Doe Bay",
+                description: "Sea Kayaking is a great way to explore the Puget Sound while getting a workout.  The knowledgable guides will take you out on a three hour trip where you'll encounter the birds, fish, and mammals that make up the San Juan Island ecosystem.  If you're lucky, you may even spot an Orca Whale if it's the right time of year.  On your tour you'll have views of the Olympic Mountains, Mt Baker, and the other San Juan Islands.",
+                title: "Sea Kayaking",
+                location1: "107 Doe Bay Rd",
+                location2: "Olga, WA",
+                lat: 48.640836, 
+                long: -122.781117,
+                day: "Sunday",
+                starttime: 10,
+                endtime: 13,
+                tips: [
+                    "It's nice to tip your guide if you enjoyed your trip, so come prepared",
+                    "Don't underestimate the currents in the Puget Sound.  This is a lot of work!",
+                    "It's normal for it to be foggy in the morning, but burn off by lunchtime, so come prepared for a variety of conditions"
+                ],
+                moreTips: [],
+                website: "http://shearwaterkayaks.com/"
+            },
+            {
+                id: 8,
+                category: 0,
+                cost: "$",
+                transportation: "Make your way back to Olga Road, and head north.  When you come to Mt Constituion Rd, turn right.  Follow the road until it splits and take the right fork.  Follow this to the trailhead.",
+                description: "This beautiful hike through some of Washington's remaining old growth forest will take you past some of the largest trees you've ever seen.  From the top, you'll have views of all the Puget Sound and Western Washington including all major mountains and mountain ranges.  You can even spot Canada!",
+                title: "Mt Constitution Hike",
+                location1: "Moran State Park",
+                location2: "Orcas Island",
+                lat: 48.6569, 
+                long: -122.8180,
+                day: "Sunday",
+                starttime: 14,
+                endtime: 20,
+                tips: [
+                    "To maximize your time outdoors, bring a lunch to eat a pretty spot along the trail",
+                ],
+                moreTips: [],
+                website: "http://www.wta.org/go-hiking/hikes/mount-constitution"
+            },
+            {
+                id: 9,
+                category: 0,
+                cost: "$",
+                transportation: "Reverse your steps!  Head back to Olga Rd and turn right.  Follow Olga Rd to Eastsound where you pick up Orcas Rd back to the Ferry Terminal",
+                description: "This time the ferry is much easier.  Just get in line, and hop right on (no need to get a ticket for the way home).  It's first-come, first-served, so don't tary on your way back to the ferry!",
+                title: "Ferry to Anacortes",
+                location1: "293 Ferry Hold Ln",
+                location2: "Orcas, WA 98280",
+                lat: 48.597709, 
+                long: -122.943923,
+                day: "Sunday",
+                starttime: 21,
+                endtime: 22,
+                tips: [
+                    "While the benches upstairs make nice beds, if you're tired, your car is the best place to get some shut-eye on the ferry back to the mainland",
+                ],
+                moreTips: [],
+                website: "http://www.wsdot.com/ferries/schedule/ScheduleDetailByRoute.aspx?schedrouteid=1570"
+            }
+        ]
     },
     /**************************************************************/
     /****************** Boozy Beach Weekend ***********************/
