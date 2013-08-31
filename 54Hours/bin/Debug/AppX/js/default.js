@@ -17,6 +17,9 @@
     //Always create a searchState Object to hold the state of the search
     var searchStateObject = new searchState.searchState(resultsStateObject);
 
+    //Always create a homeState Object
+    var homeStateObject = new homeState.homeState();
+
     //Always create a worker to handle going from highlight->oneUpView
     var workerObject = new Worker("/js/worker.js");
     oneUpStateObject.AttachOnMessage(workerObject, "handleLoad");
@@ -32,7 +35,7 @@
     var highlightIDArray = new Array();
 
     //Expose these objects globally via a namespace
-    WinJS.Namespace.define("AppGlobals", { oneUpStateObject: oneUpStateObject, resultsStateObject: resultsStateObject, searchStateObject: searchStateObject });
+    WinJS.Namespace.define("AppGlobals", { homeStateObject: homeStateObject, oneUpStateObject: oneUpStateObject, resultsStateObject: resultsStateObject, searchStateObject: searchStateObject });
 
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
@@ -56,10 +59,13 @@
                 function () {
                     //Configure the app bar
                     appBarManager.configureAppBar();
+                    appBarManager.showHomeCommands();
+                    Controller.setCurrentState(AppGlobals.homeStateObject);
 
                     //Configure the different UIs
                     resultsStateObject.configureUI();
                     searchStateObject.configureUI();
+                    oneUpStateObject.configureUI();
 
                     /**********************************************/
                     /************* POSITION ELEMENTS **************/
@@ -150,6 +156,10 @@
         document.getElementById("SEARCHGRID").style.top = "0px";
         document.getElementById("SEARCHCONTENT_A").style.display = "-ms-flexbox";
         document.getElementById("SEARCHCONTENT_A").style.opacity = "1";
+
+        //Hide the home page
+        document.getElementById("STARTGRID").style.display = "none";
+        document.getElementById("STARTGRID").style.opacity = "0";
     };
 
     function STARTGRID_highlight_selection_click(event) {

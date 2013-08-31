@@ -115,6 +115,7 @@
     <Content Include="js\data.js" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\homeState.js" />
     <Content Include="js\json2.js" />
     <Content Include="js\oneUpState.js" />
     <Content Include="js\resultsState.js" />

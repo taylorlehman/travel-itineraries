@@ -900,6 +900,9 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\homeState.js">
+      <PackagePath>js\homeState.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\json2.js">
       <PackagePath>js\json2.js</PackagePath>
     </AppxPackagedFile>

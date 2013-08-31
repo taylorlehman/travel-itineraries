@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-30T22:23:12.013</Modified>
+      <Modified>2013-08-31T00:06:28.766</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -958,7 +958,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-08-26T03:51:24.597</Modified>
+      <Modified>2013-08-31T00:08:30.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.eot">
       <PackagePath>fonts\fontawesome-webfont.eot</PackagePath>
@@ -1187,7 +1187,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\appBarManager.js">
       <PackagePath>js\appBarManager.js</PackagePath>
-      <Modified>2013-08-26T02:39:25.431</Modified>
+      <Modified>2013-08-31T00:12:57.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\controller.js">
       <PackagePath>js\controller.js</PackagePath>
@@ -1195,11 +1195,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-30T23:05:12.108</Modified>
+      <Modified>2013-08-30T23:06:11.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-08-20T06:04:45.629</Modified>
+      <Modified>2013-08-31T00:21:35.361</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\homeState.js">
+      <PackagePath>js\homeState.js</PackagePath>
+      <Modified>2013-08-31T00:11:16.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\json2.js">
       <PackagePath>js\json2.js</PackagePath>
@@ -1207,7 +1211,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-08-30T21:13:54.026</Modified>
+      <Modified>2013-08-31T00:20:06.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
@@ -1231,7 +1235,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-08-30T22:23:10.757</Modified>
+      <Modified>2013-08-31T00:06:28.317</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

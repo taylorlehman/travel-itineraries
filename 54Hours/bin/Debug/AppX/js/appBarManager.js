@@ -33,8 +33,8 @@
         //Populate the top bar
         populateTopBar();
 
-        //For now, the app bar starts disabled
-        appBar.disabled = true;
+        //For now, the app bar starts enabled
+        appBar.disabled = false;
 
         //Configure the click handlers for the bottom bar button
         document.getElementById("cmdBackToResults").addEventListener("click", cmdBackToResults_click);
@@ -225,6 +225,11 @@
             appBar.showOnlyCommands(["cmdSearch", saveRemoveString], true);
         }
         
+    };
+
+    //PUBLIC
+    function showHomeCommands() {
+        appBar.showOnlyCommands(["cmdSearch"], true);
     };
 
     //PRIVATE
@@ -473,6 +478,7 @@
             configureAppBar: configureAppBar,
             showOneUpCommands: showOneUpCommands,
             showResultsCommands: showResultsCommands,
+            showHomeCommands: showHomeCommands,
             populateTopBar: populateTopBar
         }
     );

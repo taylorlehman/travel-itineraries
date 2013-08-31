@@ -60,6 +60,7 @@ js\appBarManager.js
 js\controller.js
 js\data.js
 js\default.js
+js\homeState.js
 js\json2.js
 js\oneUpState.js
 js\resultsState.js
