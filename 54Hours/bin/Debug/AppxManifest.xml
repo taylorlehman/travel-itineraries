@@ -35,7 +35,7 @@
     <Capability Name="internetClient" />
   </Capabilities>
   <Dependencies>
-    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.8514.0" />
+    <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20789" />
   </Dependencies>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="11.0" />

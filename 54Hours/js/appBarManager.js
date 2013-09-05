@@ -12,6 +12,21 @@
     var itemBeingRemoved = null;
 
     //PUBLIC
+    function enableAppBar() {
+        appBar.disabled = false;
+    };
+
+    //PUBLIC
+    function disableAndHideAppBar() {
+        //Hide the app bar
+        //Note: No need to hide the top bar or curtain - handled in onbeforehide
+        appBar.hide();
+
+        //Disable the app bar
+        appBar.disabled = true;
+    };
+
+    //PUBLIC
     function configureAppBar() {
         appBarElement = document.getElementById("theAppBar");
         appBar = appBarElement.winControl;
@@ -24,7 +39,7 @@
         appBar.onbeforehide = handleonbeforehide;
         appBar.onaftershow = handleaftershow;
 
-        //Make the app bar sticky (light dismiss is via the curtain
+        //Make the app bar sticky (light dismiss is via the curtain)
         appBar.sticky = true;
 
         //Attach a click handler to the curtain to simulate light dismiss
@@ -479,7 +494,9 @@
             showOneUpCommands: showOneUpCommands,
             showResultsCommands: showResultsCommands,
             showHomeCommands: showHomeCommands,
-            populateTopBar: populateTopBar
+            populateTopBar: populateTopBar,
+            disableAndHideAppBar: disableAndHideAppBar,
+            enableAppBar: enableAppBar
         }
     );
 })();

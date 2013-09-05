@@ -4,6 +4,16 @@
     function homeState() {
         //CONTROLLER CALLBACKS
         this.clearUI = clearUI;
+        this.shouldEnableAppBar = shouldEnableAppBar;
+        this.returnElementsToOriginalPosition = returnElementsToOriginalPosition;
+    };
+
+    function returnElementsToOriginalPosition() {
+        //NOOP for now
+    }
+
+    function shouldEnableAppBar() {
+        return true;
     };
 
     function clearUI() {

@@ -9,6 +9,8 @@
         this.getActiveItinerary = getActiveItinerary;
         this.configureAppBar = configureAppBar;
         this.configureUI = configureUI;
+        this.shouldEnableAppBar = shouldEnableAppBar;
+        this.returnElementsToOriginalPosition = returnElementsToOriginalPosition;
 
         //Member Variables
         this.item = null;
@@ -160,6 +162,10 @@
         };
 
         tempWorker = null;
+    };
+
+    function shouldEnableAppBar() {
+        return true;
     };
 
     function getFirstEventOnDay(dayString) {
@@ -605,14 +611,21 @@
     };
 
     function configureUI() {
+        this.returnElementsToOriginalPosition();
+    };
+
+    function returnElementsToOriginalPosition() {
         var height = (window.innerHeight - 80) * .11625 * 4; //Calculation: The height of the entire flyout
-        var functionalContentWidth = window.innerWidth - 30; //Calculation: -30 for the 15 padding on each side
-        var functionalContentHeight = height - 30 - 15; //Calculation: 30 for the close div, 15 for the top padding
 
         //Configure ONEUPGRID_details
         document.getElementById("ONEUPGRID_details").style.width = (window.innerWidth).toString() + "px";
         document.getElementById("ONEUPGRID_details").style.height = height.toString() + "px";
         document.getElementById("ONEUPGRID_details").style.top = (-height).toString() + "px";
+
+        //Make sure the map is the correct width
+        if (this.map != null) {
+            this.map.setOptions({width: window.innerWidth});
+        }
     };
 
     function configureDetailsDiv() {

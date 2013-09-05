@@ -8,6 +8,8 @@
         this.getActiveItineraryIdString = getActiveItineraryIdString;
         this.getActiveItinerary = getActiveItinerary;
         this.configureAppBar = configureAppBar;
+        this.shouldEnableAppBar = shouldEnableAppBar;
+        this.returnElementsToOriginalPosition = returnElementsToOriginalPosition;
 
         //Data Listeners
         this.dataListenerIdArray = new Array();
@@ -101,6 +103,10 @@
         tempWorker = null;
     };
 
+    function shouldEnableAppBar() {
+        return true;
+    };
+
     function handleUserDataCallback(itineraryId, property){
         switch(property){
             case "saveState":
@@ -146,6 +152,16 @@
         /**********************************************/
         /************* POSITION ELEMENTS **************/
         /**********************************************/
+        this.returnElementsToOriginalPosition();
+
+        /**********************************************/
+        /************ SET EVENT HANDLERS **************/
+        /**********************************************/
+        this.AttachOnClick(document.getElementById("RESULTSGRID_next"), "RESULTSGRID_next_click");
+        this.AttachOnClick(document.getElementById("RESULTSGRID_previous"), "RESULTSGRID_previous_click");
+    };
+
+    function returnElementsToOriginalPosition() {
         document.getElementById("RESULTSGRID").style.left = (window.innerWidth).toString() + "px";
         document.getElementById("RESULTSGRID_next").style.left = (window.innerWidth).toString() + "px";
         document.getElementById("RESULTSGRID_next").style.top = (window.innerHeight / 2 - 50).toString() + "px";
@@ -156,12 +172,6 @@
         document.getElementById("RESULTSGRID_previous").style.top = (window.innerHeight / 2 - 50).toString() + "px";
         document.getElementById("RESULTSGRID_previous").classList.add("icon-chevron-left");
         document.getElementById("RESULTSGRID_previous").classList.add("icon-2x");
-
-        /**********************************************/
-        /************ SET EVENT HANDLERS **************/
-        /**********************************************/
-        this.AttachOnClick(document.getElementById("RESULTSGRID_next"), "RESULTSGRID_next_click");
-        this.AttachOnClick(document.getElementById("RESULTSGRID_previous"), "RESULTSGRID_previous_click");
     };
 
     //Resets the object state

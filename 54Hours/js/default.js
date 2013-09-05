@@ -8,6 +8,9 @@
     var app = WinJS.Application;
     var activation = Windows.ApplicationModel.Activation;
 
+    //Variable to track if first run was done in !fullscreen. If so, reposition elements
+    var isfirstRunConfigNonFullScreen = false;
+
     //Always create a oneUpState Object to hold the state of the current one-up view
     var oneUpStateObject = new oneUpState.oneUpState()
 
@@ -34,17 +37,18 @@
     //seperately
     var highlightIDArray = new Array();
 
-    //Expose these objects globally via a namespace
-    WinJS.Namespace.define("AppGlobals", { homeStateObject: homeStateObject, oneUpStateObject: oneUpStateObject, resultsStateObject: resultsStateObject, searchStateObject: searchStateObject });
+    //Expose the state objects globally via a namespace
+    var AppStateArray = [homeStateObject, searchStateObject, resultsStateObject, oneUpStateObject];
+    WinJS.Namespace.define("AppGlobals", { AppStateArray: AppStateArray, homeStateObject: homeStateObject, oneUpStateObject: oneUpStateObject, resultsStateObject: resultsStateObject, searchStateObject: searchStateObject });
 
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
-            if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-                // TODO: This application has been newly launched. Initialize
-                // your application here.
-            } else {
-                // TODO: This application has been reactivated from suspension.
-                // Restore application state here.
+
+            //First, check to see what type of view we are in and set the tracking
+            //variable appropriately so we know if we need to reposition elements
+            //on resizing back to full screen
+            if (Windows.UI.ViewManagement.ApplicationView.value != Windows.UI.ViewManagement.ApplicationViewState.fullScreenLandscape) {
+                isfirstRunConfigNonFullScreen = true;
             }
 
             //Load Start screen highlights
@@ -68,28 +72,19 @@
                     oneUpStateObject.configureUI();
 
                     /**********************************************/
-                    /************* POSITION ELEMENTS **************/
-                    /**********************************************/
-                
-                    //Configure the navigation buttons
-                    //TODO: Move this to be configured via searchState (or something similar)
-                    document.getElementById("SEARCHGRID_next_button").style.top = (window.innerHeight - 100).toString() + "px";
-                    document.getElementById("SEARCHGRID_next_button").style.left = (window.innerWidth).toString() + "px";
-
-                
-                    /**********************************************/
                     /************ SET EVENT HANDLERS **************/
                     /**********************************************/
 
                     /*********** STARTGRID ************/
                     //document.getElementById("STARTGRID_ss_ny").addEventListener("click", STARTGRID_location_selection_click); //Set the event handlers for the location selection buttons for the start of the search experience
                     //document.getElementById("STARTGRID_ss_sf").addEventListener("click", STARTGRID_location_selection_click); //Set the event handlers for the location selection buttons for the start of the search experience
-                    document.getElementById("STARTGRID_ss_se").addEventListener("click", STARTGRID_location_selection_click); //Set the event handlers for the location selection buttons for the start of the search experience
                     //document.getElementById("STARTGRID_ss_ba").addEventListener("click", STARTGRID_location_selection_click); //Set the event handlers for the location selection buttons for the start of the search experience
+                    document.getElementById("STARTGRID_ss_se").addEventListener("click", STARTGRID_location_selection_click); //Set the event handlers for the location selection buttons for the start of the search experience
                     document.getElementById("STARTGRID_hightlight_1").addEventListener("click", STARTGRID_highlight_selection_click);
                     document.getElementById("STARTGRID_hightlight_2").addEventListener("click", STARTGRID_highlight_selection_click);
                     document.getElementById("STARTGRID_hightlight_3").addEventListener("click", STARTGRID_highlight_selection_click);
                     document.getElementById("STARTGRID_hightlight_4").addEventListener("click", STARTGRID_highlight_selection_click);
+                    window.addEventListener("resize", onresize, false);
 
                     /**********************************************/
                     /*************** INITIALIZE MAP ***************/
@@ -218,6 +213,33 @@
         }
 
         oneUpStateObject.MapState = 2; //0=Not Initialized, 1=Initializing, 2=Initialized
+    };
+
+    function onresize() {
+        var newViewState = Windows.UI.ViewManagement.ApplicationView.value;
+        var fullLandscape = Windows.UI.ViewManagement.ApplicationViewState.fullScreenLandscape;
+
+        //If we are transitioning to anything that's not full landscape
+        if (newViewState != fullLandscape) {
+            //Disable the app bar
+            appBarManager.disableAndHideAppBar();
+        } else { //Transitioning back to full screen
+            //Show the app bar (if necessary)
+            if (Controller.getCurrentState().shouldEnableAppBar()) {
+                appBarManager.enableAppBar();
+            }
+
+            //Decide if any resizing is necessary - plan: just decide if initial configuration has ever occurred or not
+            if (isfirstRunConfigNonFullScreen == true) {
+                //Relayout elements that depend on screen width
+                for (var i = 0; i < AppGlobals.AppStateArray.length; i++) {
+                    AppGlobals.AppStateArray[i].returnElementsToOriginalPosition();
+                }
+
+                //Reset the variable so we never try to run first run config again
+                isfirstRunConfigNonFullScreen = false;
+            }
+        }
     };
 
     app.start();

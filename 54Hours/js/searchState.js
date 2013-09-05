@@ -5,6 +5,8 @@
         //CONTROLLER CALLBACKS
         this.drawUI = drawUI;
         this.reset = reset;
+        this.shouldEnableAppBar = shouldEnableAppBar;
+        this.returnElementsToOriginalPosition = returnElementsToOriginalPosition;
 
         //Which step in the setup process the user is in
         //0 = LOCATION
@@ -92,6 +94,7 @@
         
         this.SEARCHGRID_header_click = SEARCHGRID_header_click;
         this.EnableHeaderClick = EnableHeaderClick;
+        this.DisableHeaderClick = DisableHeaderClick;
         
         this.clearCurrentHighlightedHeader = clearCurrentHighlightedHeader;
         this.highLightHeader = highLightHeader;
@@ -132,6 +135,10 @@
         element = null;
     };
 
+    function shouldEnableAppBar() {
+        return false;
+    };
+
     function getActiveDivElement() {
         return document.getElementById("SEARCHCONTENT_" + this.activeDiv);
     };
@@ -149,9 +156,16 @@
     //Called by defaultjs during startup to allow the page to do 
     //any configuration necessary
     function configureUI() {
+        //Attach click handlers
         this.AttachOnClick(document.getElementById("SEARCHGRID_next_button"), "SEARCHGRID_next_button_click");
-        this.AttachOnClick(document.getElementById("SEARCHGRID_who"), "SEARCHGRID_header_click");
-        this.AttachOnClick(document.getElementById("SEARCHGRID_howmuch"), "SEARCHGRID_header_click");
+
+        this.returnElementsToOriginalPosition();
+    };
+
+    function returnElementsToOriginalPosition() {
+        //Position the next button
+        document.getElementById("SEARCHGRID_next_button").style.top = (window.innerHeight - 100).toString() + "px";
+        document.getElementById("SEARCHGRID_next_button").style.left = (window.innerWidth).toString() + "px";
     };
 
     /*******************************************
@@ -161,6 +175,12 @@
     //so that it always slides in from the right (instead of sliding in from the lefreposition_inactive_divt)
     function reposition_inactive_div() {
         this.getInactiveDivElement().style.left = window.innerWidth.toString() + "px";
+    };
+
+    //Disables a given header
+    function DisableHeaderClick(element) {
+        element.style.cursor = "default";
+        element.onclick = null;
     };
 
     //Enables the next header
@@ -766,6 +786,9 @@
 
         document.getElementById("SEARCHGRID_where").innerText = this.currentLocationSelectionString;
 
+        //Make the when header clickable
+        this.EnableHeaderClick("SEARCHGRID_when");
+
         //Advance in the search experience
         this.SEARCHGRID_header_click(document.getElementById("SEARCHGRID_when"));
     };
@@ -1079,6 +1102,11 @@
 
         this.WHENGRID_selected_item_id = "";
         this.WHENGRID_selected_item_string = "";
+
+        //Unset all the click handlers (except for where) and reset the cursor
+        this.DisableHeaderClick(document.getElementById("SEARCHGRID_when"));
+        this.DisableHeaderClick(document.getElementById("SEARCHGRID_who"));
+        this.DisableHeaderClick(document.getElementById("SEARCHGRID_howmuch"));
     };
 
     //Define the namespace that makes all of this available throughout the application

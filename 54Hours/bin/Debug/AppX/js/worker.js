@@ -30,7 +30,7 @@ SearchHashTable["SEA_spring_1"] = [0, 1];
 SearchHashTable["SEA_spring_2"] = [0, 1];
 SearchHashTable["SEA_spring_3"] = [0, 1];
 
-SearchHashTable["SEA_summer_1"] = [0, 1, 2, 3];
+SearchHashTable["SEA_summer_1"] = [2];
 SearchHashTable["SEA_summer_2"] = [0, 1, 2, 3];
 SearchHashTable["SEA_summer_3"] = [0, 1, 2, 3];
 

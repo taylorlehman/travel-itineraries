@@ -5,7 +5,7 @@
     <WindowsUser>Taylor</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>F7075A845D4BF622DCA589137E93DE677E1EFE000DF480695AAD162F591C11D8</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>A9789741851ED226500CECC7288A6E5EE677056CD28C0B7C428115BF1E3DCCB8</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_1.0.0.0_neutral__hxaws8gg03xft</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_hxaws8gg03xft!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545</RegisteredPackageID>
@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-08-31T00:06:28.766</Modified>
+      <Modified>2013-09-04T14:35:31.036</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -954,11 +954,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-08-26T19:55:22.912</Modified>
+      <Modified>2013-09-04T05:27:44.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-08-31T00:08:30.018</Modified>
+      <Modified>2013-09-04T05:01:54.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.eot">
       <PackagePath>fonts\fontawesome-webfont.eot</PackagePath>
@@ -1187,7 +1187,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\appBarManager.js">
       <PackagePath>js\appBarManager.js</PackagePath>
-      <Modified>2013-08-31T00:12:57.910</Modified>
+      <Modified>2013-09-05T01:08:31.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\controller.js">
       <PackagePath>js\controller.js</PackagePath>
@@ -1195,15 +1195,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-30T23:06:11.672</Modified>
+      <Modified>2013-08-31T00:28:15.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-08-31T00:21:35.361</Modified>
+      <Modified>2013-09-05T05:54:45.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\homeState.js">
       <PackagePath>js\homeState.js</PackagePath>
-      <Modified>2013-08-31T00:11:16.321</Modified>
+      <Modified>2013-09-05T05:46:57.731</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\json2.js">
       <PackagePath>js\json2.js</PackagePath>
@@ -1211,15 +1211,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-08-31T00:20:06.092</Modified>
+      <Modified>2013-09-05T06:04:38.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
-      <Modified>2013-08-29T02:27:59.759</Modified>
+      <Modified>2013-09-05T05:48:14.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\searchState.js">
       <PackagePath>js\searchState.js</PackagePath>
-      <Modified>2013-08-29T02:33:15.194</Modified>
+      <Modified>2013-09-05T06:28:29.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\userData.js">
       <PackagePath>js\userData.js</PackagePath>
@@ -1231,7 +1231,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\worker.js">
       <PackagePath>js\worker.js</PackagePath>
-      <Modified>2013-08-29T02:31:44.432</Modified>
+      <Modified>2013-09-05T06:06:35.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
@@ -1241,9 +1241,9 @@
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
       <Name>Microsoft.WinJS.1.0</Name>
-      <Version>1.0.8514.0</Version>
+      <Version>1.0.9200.20789</Version>
       <Architecture>Neutral</Architecture>
-      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
     </ResolvedSDKReference>
   </ItemGroup>
