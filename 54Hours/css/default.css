@@ -1506,13 +1506,24 @@ h4 {
 .ONEUPGRID_mapdot {
     width: 20px;
     height: 20px;
-    padding: 0px;
     margin: 0px;
     border: 1px solid;
     border-radius: 10px;
     box-shadow: 1px 1px 3px black;
     z-index: 500;
     cursor: pointer;
+    color: white;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+}
+
+.ONEUPGRID_innermapdot {
+    margin: 0px;
+    padding: 0px;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
 }
 
 .ONEUPGRID_mapdot_selected {
@@ -1525,6 +1536,10 @@ h4 {
     box-shadow: 1px 1px 3px black;
     z-index: 501;
     cursor: pointer;
+    color: white;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
 }
 
 .ONEUPGRID_mapdot_friday {

@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-04T14:35:31.036</Modified>
+      <Modified>2013-09-07T21:14:03.667</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -950,11 +950,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\font-awesome.min.css">
       <PackagePath>css\font-awesome.min.css</PackagePath>
-      <Modified>2013-02-26T02:51:26.028</Modified>
+      <Modified>2013-09-07T21:17:25.894</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-04T05:27:44.825</Modified>
+      <Modified>2013-09-07T21:07:01.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
@@ -962,15 +962,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.eot">
       <PackagePath>fonts\fontawesome-webfont.eot</PackagePath>
-      <Modified>2013-02-01T06:28:55.252</Modified>
+      <Modified>2013-09-07T21:10:16.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.svg">
       <PackagePath>fonts\fontawesome-webfont.svg</PackagePath>
-      <Modified>2013-02-01T06:28:55.330</Modified>
+      <Modified>2013-09-07T21:10:16.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.ttf">
       <PackagePath>fonts\fontawesome-webfont.ttf</PackagePath>
-      <Modified>2013-02-01T06:28:55.362</Modified>
+      <Modified>2013-09-07T21:10:16.725</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\Lobster.ttf">
       <PackagePath>fonts\Lobster.ttf</PackagePath>
@@ -978,11 +978,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\fontawesome-webfont.woff">
       <PackagePath>fonts\fontawesome-webfont.woff</PackagePath>
-      <Modified>2013-02-01T06:28:55.424</Modified>
+      <Modified>2013-09-07T21:10:16.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\fonts\FontAwesome.otf">
       <PackagePath>fonts\FontAwesome.otf</PackagePath>
-      <Modified>2013-02-01T06:28:55.221</Modified>
+      <Modified>2013-09-07T21:10:16.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\architecture.jpg">
       <PackagePath>images\architecture.jpg</PackagePath>
@@ -1199,7 +1199,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-09-05T05:54:45.913</Modified>
+      <Modified>2013-09-05T06:46:41.789</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\homeState.js">
       <PackagePath>js\homeState.js</PackagePath>
@@ -1211,7 +1211,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-09-05T06:04:38.338</Modified>
+      <Modified>2013-09-07T21:04:15.627</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
@@ -1219,7 +1219,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\searchState.js">
       <PackagePath>js\searchState.js</PackagePath>
-      <Modified>2013-09-05T06:28:29.260</Modified>
+      <Modified>2013-09-05T06:29:12.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\userData.js">
       <PackagePath>js\userData.js</PackagePath>
@@ -1227,7 +1227,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\utilities.js">
       <PackagePath>js\utilities.js</PackagePath>
-      <Modified>2013-08-29T02:42:28.665</Modified>
+      <Modified>2013-09-05T14:49:38.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\worker.js">
       <PackagePath>js\worker.js</PackagePath>

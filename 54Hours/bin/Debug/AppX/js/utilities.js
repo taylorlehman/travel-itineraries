@@ -96,7 +96,7 @@
 
     function getTimeStringFromNumericValue(numericValue) {
         var isAM = numericValue < 12;
-        
+
         if (isAM) {
             return numericValue.toString() + "AM";
         } else {
@@ -106,7 +106,40 @@
                 return (numericValue - 12).toString() + "PM";
             }
         }
-    }
+    };
+
+    function getIconClassFromWhatId(whatID) {
+        var className = "";
+
+        switch (whatID) {
+            case 0: //Active
+                className = "icon-compass";
+                break;
+            case 1: //Pamper
+                className = "icon-smile";
+                break;
+            case 2: //Kids
+                className = "icon-puzzle-piece";
+                break;
+            case 3: //Nightlife
+                className = "icon-glass";
+                break;
+            case 4: //Foodie
+                className = "icon-food";
+                break;
+            case 5: //Sightseeing
+                className = "icon-camera";
+                break;
+            case 6: //Arts and Culture
+                className = "icon-film";
+                break;
+            case 7: //Shopping
+                className = "icon-credit-card";
+                break;
+        }
+
+        return className;
+    };
 
     //Define the namespace that makes all of this available throughout the application
     WinJS.Namespace.define(
@@ -116,6 +149,7 @@
             getCategoryStringFromId: getCategoryStringFromId,
             buildWhoHorizontalLayout: buildWhoHorizontalLayout,
             authorFactory: authorFactory,
-            getTimeStringFromNumericValue: getTimeStringFromNumericValue
+            getTimeStringFromNumericValue: getTimeStringFromNumericValue,
+            getIconClassFromWhatId: getIconClassFromWhatId
         });
 })();

@@ -444,8 +444,11 @@
             zindex = 6;
         }
 
+        var innerPushPinDivString = "<div class=\"ONEUPGRID_innermapdot " + Utilities.getIconClassFromWhatId(this.getEventById(id).category) + "\"></div>";
         var classString = baseClass + " " + this.getMapDotDayClass(day);
-        var mapString = "<div class=\"" + classString + "\" id=\"ONEUPGRID_mapdot_" + id + "\"></div>";
+        var mapString = "<div class=\"" + classString
+            + "\" id=\"ONEUPGRID_mapdot_" + id
+            + "\">" + innerPushPinDivString + "</div>";
         return { width: null, height: null, htmlContent: mapString, zIndex: zindex, visible: visible };
     };
 
