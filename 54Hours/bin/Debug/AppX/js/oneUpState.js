@@ -773,7 +773,9 @@
         document.getElementById("ONEUPGRID_contentgrid_friday").style.left = leftIndent.toString() + "px";
         document.getElementById("ONEUPGRID_contentgrid_saturday").style.left = (leftIndent + (window.innerWidth * .3)).toString() + "px";
         document.getElementById("ONEUPGRID_contentgrid_sunday").style.left = (leftIndent + ((window.innerWidth * .3) * 2)).toString() + "px";
-
+        document.getElementById("ONEUPGRID_contentgrid_friday").style.color = "#88d8f5";
+        document.getElementById("ONEUPGRID_contentgrid_saturday").style.color = "#93ea58";
+        document.getElementById("ONEUPGRID_contentgrid_sunday").style.color = "#f7a373";
 
         //Caculation: For the day titles at the bottom, need to give them a height
         //Top: 93% of grid height
@@ -822,12 +824,45 @@
                     break;
             };
 
+            //Create the left div
+            var tempLeftElement = document.createElement("div");
+            tempLeftElement.classList.add("ONEUPGRID_itinerary_event_left");
+            tempLeftElement.id = "ONEUPGRID_itinerary_leftevent_" + i.toString();
+
             //Create the event title
             var tempH1 = document.createElement("h1");
             tempH1.classList.add("ONEUPGRID_itinerary_event_h1");
             tempH1.innerText = eventsList[i].title;
-            tempElement.appendChild(tempH1);
+            tempLeftElement.appendChild(tempH1);
 
+            //Create the dash
+            var tempH3 = document.createElement("h3");
+            tempH3.classList.add("ONEUPGRID_itinerary_event_h3");
+            tempH3.innerText = "-";
+            tempLeftElement.appendChild(tempH3);
+
+            //Create the icon
+            var tempCatIconDiv = document.createElement("div");
+            tempCatIconDiv.classList.add("ONEUPGRID_itinerary_event_catIconDiv");
+            tempCatIconDiv.classList.add(Utilities.getIconClassFromWhatId(eventsList[i].category));
+            tempLeftElement.appendChild(tempCatIconDiv);
+
+            //Create the right div
+            var tempRightElement = document.createElement("div");
+            tempRightElement.classList.add("ONEUPGRID_itinerary_event_right");
+            tempRightElement.id = "ONEUPGRID_itinerary_rightevent_" + i.toString();
+            
+            //Create the ...
+            var tempRightH2 = document.createElement("h2");
+            tempRightH2.classList.add("ONEUPGRID_itinerary_event_h2");
+            tempRightH2.innerText = "...";
+            tempRightElement.appendChild(tempRightH2);
+
+            //Add the left and right boxes to the event element
+            tempElement.appendChild(tempLeftElement);
+            tempElement.appendChild(tempRightElement);
+
+            //Add the event to the itinerary and position it
             document.getElementById("ONEUPGRID_itinerary").appendChild(tempElement);
             this.setPositionByTime(tempElement, eventsList[i].starttime, eventsList[i].endtime, eventsList[i].day);
 

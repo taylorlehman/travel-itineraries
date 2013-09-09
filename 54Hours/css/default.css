@@ -1171,12 +1171,69 @@ h4 {
 .ONEUPGRID_itinerary_event {
     z-index: 500;
     position: absolute;
-    display: -ms-flexbox;
-    -ms-flex-align: start;
-    -ms-flex-pack: start;
+    display: -ms-grid;
+    -ms-grid-columns: 80% 20%;
+    -ms-grid-rows: 100%;
     margin: 0px;
     padding: 0px;
     cursor: pointer;
+}
+
+.ONEUPGRID_itinerary_event_left {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    display: -ms-flexbox;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ONEUPGRID_itinerary_event_catIconDiv {
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    height: 20px;
+    width: 20px;
+    padding: 6px 0px 6px 0px;
+    font-weight: normal;
+}
+
+.ONEUPGRID_itinerary_event_right {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    display: -ms-flexbox;
+    -ms-flex-align: end;
+    -ms-flex-pack: start; 
+    -ms-flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.ONEUPGRID_itinerary_event_h2 {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+    top: -7px;
+    left: -7px;
+}
+
+.ONEUPGRID_itinerary_event_h1 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.ONEUPGRID_itinerary_event_h3 {
+    font-size: 18px;
+    padding: 4px;
+    font-weight: normal;
+    margin: 0px;
+    border: 0px;
 }
 
 .ONEUPGRID_itinerary_event_Friday {
@@ -1215,17 +1272,9 @@ h4 {
     color: #f7a373;
 }
 
-.ONEUPGRID_itinerary_event_h1 {
-    font-family: 'Segoe UI';
-    font-weight: bold;
-    font-size: 18px;
-    padding: 5px;
-}
-
 #ONEUPGRID_details {
     position: absolute;
     left: 0px;
-    /*background-color: #272c2f;*/
     background-image: url('/images/transparent_bg.png');
     background-repeat: repeat-x repeat-y;
     z-index: 550;

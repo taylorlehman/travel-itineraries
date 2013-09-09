@@ -950,11 +950,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\font-awesome.min.css">
       <PackagePath>css\font-awesome.min.css</PackagePath>
-      <Modified>2013-09-07T21:17:25.894</Modified>
+      <Modified>2013-09-07T21:18:13.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-07T21:07:01.859</Modified>
+      <Modified>2013-09-09T03:00:13.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
@@ -1211,7 +1211,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-09-07T21:04:15.627</Modified>
+      <Modified>2013-09-09T02:56:55.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
