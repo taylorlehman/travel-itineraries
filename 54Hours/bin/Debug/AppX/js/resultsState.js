@@ -341,7 +341,7 @@
         tempRightDivDetails.classList.add("RESULTSGRID_item_button");
         tempRightDivDetails.classList.add("RESULTSGRID_item_details_div");
         tempRightDivDetails.innerText = "View Details";
-        tempRightDivDetails.id = "RESULTSGRID_detailsdiv_" + i.toString();
+        tempRightDivDetails.id = "RESULTSGRID_detailsdiv_" + response.id.toString();
         this.AttachOnClick(tempRightDivDetails, "RESULTSGRID_details_button_click");
         tempRightDivActionGrid.appendChild(tempRightDivDetails);
 
