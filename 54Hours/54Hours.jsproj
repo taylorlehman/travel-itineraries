@@ -56,7 +56,9 @@
     <Content Include="css\font-awesome.min.css" />
     <Content Include="default.html" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />

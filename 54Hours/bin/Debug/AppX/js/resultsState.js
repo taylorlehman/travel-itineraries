@@ -282,6 +282,12 @@
         var tempRightDiv = document.createElement("div");
         tempRightDiv.classList.add("RESULTSGRID_item_rightDiv");
 
+        //Create the "itinerary i of N text
+        var tempRightDivItineraryCounter = document.createElement("h3");
+        tempRightDivItineraryCounter.classList.add("RESULTSGRID_item_rightCounterH3");
+        tempRightDivItineraryCounter.innerText = "Itinerary " + (i + 1).toString() + " of " + this.resultsCount.toString();
+        tempRightDiv.appendChild(tempRightDivItineraryCounter);
+
         //Create the right-hand div title
         var tempRightDivTitle = document.createElement("h1");
         tempRightDivTitle.classList.add("RESULTSGRID_item_righttitle");

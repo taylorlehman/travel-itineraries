@@ -16,7 +16,7 @@
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-07T21:14:03.667</Modified>
+      <Modified>2013-09-09T04:04:05.466</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -954,7 +954,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-09T03:00:13.971</Modified>
+      <Modified>2013-09-09T15:15:05.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
@@ -1195,7 +1195,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-08-31T00:28:15.341</Modified>
+      <Modified>2013-09-11T06:26:34.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -1215,7 +1215,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
-      <Modified>2013-09-05T05:48:14.345</Modified>
+      <Modified>2013-09-09T15:09:23.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\searchState.js">
       <PackagePath>js\searchState.js</PackagePath>

@@ -466,7 +466,7 @@
         resultsImage: "/images/itineraryImages/1_results.jpg",
         authorId: 0,
         title: "Tourist, But Not Trapped",
-        summary: "Seattle's landmarks regularly appear in movies.  The city's edgy culture, combined with it's natural beauty make for many movie-ready photo opportunities.  This itinerary will take you to many of the most famous locations, and help you avoid the tourist traps along the way.  Know which sights to see and which to avoid, where to eat, and get some special insights about how to get the most out of your Seattle experience",
+        summary: "This itinerary will take you to many of the most famous Seattle locations, and help you avoid the tourist traps along the way.  Know which sights to see and which to avoid, where to eat, and get some special insights about how to get the most out of your Seattle experience",
         location: "Seattle, WA",
         howmuch: "$$",
         who: [0, 0, 1, 0, 1, 1, 1, 0],
@@ -1272,6 +1272,367 @@
             "Enjoy a view of Mountain Rainier, the city skyline, and the Olympic mountains while lounging on the beach",
             "Enjoy some of Seattle's hippest restaurants, including thalis at Poppy"
         ],
-        eventsList: []
+        eventsList: [
+            {
+                id: 0,
+                category: 4,
+                cost: "$$",
+                transportation: "From downtown, take the 12 or 60 bus.  It's also a short cab ride.  It's a long walk up the hill, so take some wheels.",
+                description: "Coastal Kitchen features a menu that highlights cuisine from around the world on a rotating menu.  The restaurant has a nautical theme and features lots of light colors and white subway tiles.  The food is consistently good and the portions are substantial.  The restaurant is large, but the kitchen is prepared for the volume and the food comes out quickly.",
+                title: "Coastal Kitchen",
+                location1: "429 15th Ave E",
+                location2: "Seattle, WA 98112",
+                lat: 47.622815, 
+                long: -122.312693,
+                day: "Friday",
+                starttime: 11,
+                endtime: 13,
+                tips: [
+                    "Always make sure to order one of the special rotating dishes - they are the best!",
+                    "The line is often long - consider getting coffee at Cafe Ladro while you wait",
+                    "Is the wait too long?  The wandering goose down the street is a great option as well"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/coastal-kitchen-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/bKgH6"
+                    }
+                ],
+                website: "http://coastalkitchenseattle.com/"
+            },
+            {
+                id: 1,
+                category: 0,
+                cost: "$",
+                transportation: "The 11 bus runs up and down Madison and will take you directly to the beach from Madison and 15th",
+                description: "This \"beach\" is unique in that there are large portions of it that are covered in grass instead of sand.  The beach is on the banks of Lake Washington and looks across the lake to Bill Gate's water front mansion. The beach is located near the main street in the Madison Park neighborhood and offers a variety of bars and restaurants incase you need a break from the sun",
+                title: "Madison Beach",
+                location1: "E Madison St & E Howe St",
+                location2: "Seattle, WA 98112",
+                lat: 47.635614, 
+                long: -122.276573,
+                day: "Friday",
+                starttime: 14,
+                endtime: 18,
+                tips: [
+                    "The word on the street is that the left side (where the grass is) is more family friendly than the right side (where the sand is)"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/madison-park-beach-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/6AxoZl"
+                    }
+                ],
+                website: "http://www.seattle.gov/Parks/beach_detail.asp?id=369"
+            },
+            {
+                id: 2,
+                category: 4,
+                cost: "$$$",
+                transportation: "The 49 bus from downtown stops right at Poppy",
+                description: "A thali is a platter of small dishes often served to house guests in Indian culture.  Poppy specializes in thalis that are strong in indian flavors but inspired by northwest ingredients.  Each guest has an opportunity to choose a 5 piece or 7 piece thali, and then is presented with a more tradition dessert menu.  Poppy also offers a variety of custom cocktails that make for a perfect start to a night of going out.",
+                title: "Poppy",
+                location1: "622 Broadway E",
+                location2: "Seattle, WA 98102",
+                lat: 47.625016, 
+                long: -122.320853,
+                day: "Friday",
+                starttime: 20,
+                endtime: 22,
+                tips: [
+                    "If you're with a small group, try to snag a table in the back garden",
+                    "Each thali is a lot of food!  Consider ordering one less than the number of people in your party and sharing"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/poppy-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/6nEZ5l"
+                    }
+                ],
+                website: "http://poppyseattle.com/"
+            },
+            {
+                id: 3,
+                category: 3,
+                cost: "$$",
+                transportation: "If it's a nice evening (and you are wearing appropriate footwear), take the 10 block (downhill) walk south along broadway and west on Olive",
+                description: "Knee High is one of a series of speak easys have sprung up in Seattle over the past few years.  Discreetly located in a wedge-shaped building with few windows and no sign, this hidden gem serves up drinks that are large in creativity in a small, coozy space.  When you arrive, ring the door bell to be greeted by the hostess.  Give her your name, and if you're on the list, she'll welcome you in!",
+                title: "Knee High Stocking Company",
+                location1: "1356 E Olive Way",
+                location2: "Seattle, wA 98122",
+                lat: 47.616991, 
+                long: -122.327399,
+                day: "Friday",
+                starttime: 22,
+                endtime: 23,
+                tips: [
+                    "You absolutely positively need reservations and you can only get them via text message",
+                    "Come prepared to order an adventurous drink (possibly one on fire?) to get the most out of your experience",
+                    "Not at all good for large groups (say, more than 4-6)"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/knee-high-stocking-co-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/m0fsI"
+                    }
+                ],
+                website: "http://www.kneehighstocking.com/"
+            },
+            {
+                id: 4,
+                category: 4,
+                cost: "$$",
+                transportation: "The #2 bus from downtown will drop you off right in front of 5 Spot",
+                description: "5 Spot, like Coastal Kitchen in Capital Hill has a rotating menu highlighting food from different cities across the United States.  The portions are large and the foot is approachable and delicious.  The sweet dishes are the stars here, and the savory ones aren't too bad either.",
+                title: "5 Spot",
+                location1: "1502 Queen Anne Ave N",
+                location2: "Seattle, WA 98109",
+                lat: 47.632508, 
+                long: -122.356944,
+                day: "Saturday",
+                starttime: 11,
+                endtime: 13,
+                tips: [
+                    "The lines here can be long.  There aren't many other great options nearby, so come prepared for a potential wait"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/5-spot-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/2d2y7r"
+                    }
+                ],
+                website: "https://www.chowfoods.com/5-spot"
+            },
+            {
+                id: 5,
+                category: 0,
+                cost: "$",
+                transportation: "From 5 Spot, getting here via bus is not fun.  If you don't have a car, call an Uber",
+                description: "Discovery Park is a hidden gem.  Located in the Magnolia neighborhood, this expansive park offers hiking, areas for picnics, beautiful views of Seattle and the Olympic Mountains, and some of the most beautiful beaches in Seattle.  The sand-based beaches are found at the furtherest west tip of the park near the lighthouse (if you get lost - just ask for directions to the light house).",
+                title: "Discovery Park Beach",
+                location1: "3801 Discovery Park Blvd ",
+                location2: "Seattle, WA 98199",
+                lat: 47.660967, 
+                long: -122.433806,
+                day: "Saturday",
+                starttime: 14,
+                endtime: 18,
+                tips: [
+                    "The beach is expansive - if the first area you try is too crowded, don't dispair - keep walking until you find a good spot",
+                    "The water in the Puget Sound is cold all year round - don't say we didn't warm you! :)"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/discovery-park-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/6xciH6"
+                    }
+                ],
+                website: "http://www.seattle.gov/parks/environment/discovery.htm"
+            },
+            {
+                id: 6,
+                category: 4,
+                cost: "$$",
+                transportation: "From most of the downtown hotels, Local 360 is just a short cab ride away, or depending on where your hotel is, a medium-length walk",
+                description: "Local 360 offers a great selection of food and spirits that are all sourced from within 360 miles of Seattle so you can eat well with a clean concious.  The atmosphere is hip, but warm and not overly pretenious - like eating at a fancy farm table in the heart of Seattle.  The menu offers a variety of New American dishes - both vegetarian and meat-based dishes - and offers both small-plate style dishes and full entries",
+                title: "Local 360",
+                location1: "2234 1st Ave",
+                location2: "Seattle, WA 98121",
+                lat: 47.613445, 
+                long: -122.346321,
+                day: "Saturday",
+                starttime: 20,
+                endtime: 22,
+                tips: [
+                    "The pork-rib poutine is to die for.  Make sure to include that in your dinner selections",
+                    "Consider getting a bottle of wine to try some local Washington wines"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/local-360-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/dMX0Ms"
+                    }
+                ],
+                website: "http://local360.org/"
+            },
+            {
+                id: 7,
+                category: 3,
+                cost: "$$",
+                transportation: "Head south on first (toward downtown) and take a left on Blanchard.  You'll find Bathtub Gin in the alley on your left about half way down the block",
+                description: "Bathtub Gin is another one of the hip Seattle speakeasys.  It's pretentiousness and line at the door reflect the neighborhood it's located in.  Once you get in and are seated at one of the few tables in this small bar, tell the bartender what you like, and leave yourself in his more-than-capable hands.  Unlike the bartenders at many establishments in this neighborhood, the bartenders here do more than just crank out drinks - they create works of art!",
+                title: "Bathtub Gin",
+                location1: "2205 2nd Ave",
+                location2: "Seattle, WA 98121",
+                lat: 47.613156,
+                long: -122.345062,
+                day: "Saturday",
+                starttime: 22,
+                endtime: 23,
+                tips: [
+                    "No, your phone didn't lead you astray, that sketchy alley that it's telling you to go down will lead you to Bathtub Gin",
+                    "The line can get long - if you don't want to wait, try Spur nearby"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/bathtub-gin-and-co-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/3AfONu"
+                    }
+                ],
+                website: "http://bathtubginseattle.com/"
+            },
+            {
+                id: 8,
+                category: 4,
+                cost: "$$$",
+                transportation: "From downtown, take the West Seattle water taxi!  It will drop you off right near the restaurant",
+                description: "Salty's is a Seattle institution.  Offering a massive (and pricey) brunch buffet that highlights stunning, fresh seafood from the Puget Sound and some of the best views of the Seattle skyline you can find anywhere.  It's everything a good upscale brunch place should be.",
+                title: "Salty's",
+                location1: "1936 Harbor Ave SW",
+                location2: "Seattle, WA 98162",
+                lat: 47.586574, 
+                long: -122.376289,
+                day: "Sunday",
+                starttime: 11,
+                endtime: 13,
+                tips: [
+                    "You'll want to get reservations in advance as this place is quite popular for weekend brunch"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/saltys-on-alki-beach-seafood-grill-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8G70Sm"
+                    }
+                ],
+                website: "http://saltys.com/seattle/"
+            },
+            {
+                id: 9,
+                category: 0,
+                cost: "$",
+                transportation: "From Salty's, bus 775 will drop you right off at Alki beach",
+                description: "Alki's is a beach that has Seattle views with a california beach experience: paved boardwalk, plentiful beach volleyball, and great cheap food nearby.  The beach has incredible views of the Seattle Skyline, Puget Sound, the Olympic Penninsula, and a lighthouse nearby.  The sand at the beach leaves a bit to be desired, but it's worth putting up with for all the other great aspects of this beach.",
+                title: "Alki Beach",
+                location1: "1702 Alki Ave. SW",
+                location2: "Seattle, WA 98116",
+                lat: 47.581661, 
+                long: -122.405844,
+                day: "Sunday",
+                starttime: 14,
+                endtime: 18,
+                tips: [
+                    "There are pubilc bathrooms for men/women centrally located on the beach, but the line gets long",
+                    "Parking is pretty tight in this area - even if you have to walk a bit, if you find parking, snag it and enjoy the walk!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/alki-beach-park-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/5ojzGr"
+                    }
+                ],
+                website: "http://www.seattle.gov/parks/park_detail.asp?ID=445"
+            },
+            {
+                id: 10,
+                category: 4,
+                cost: "$$",
+                transportation: "From downtown, the #3 bus will drop you off a block from Ba Bar",
+                description: "Ba Bar is unique in that it's hip, delicious, and yet can be very affordable if you order correctly (i.e. limit your drinks).  Specializing in vietnamese food, this restaurant offers a variety of dishes from frog legs to peking duck to vermicelli bowls.  Ba bar lives up to its name and has a great selection of cocktails as well - mostly light and refreshing - to compliment the food.",
+                title: "Ba Bar",
+                location1: "550 12th Ave",
+                location2: "Seattle, WA 98122",
+                lat: 47.607142, 
+                long: -122.316751,
+                day: "Sunday",
+                starttime: 20,
+                endtime: 22,
+                tips: [
+                    "Go for the combo vermicelli bowl - a great mix of all the proteins",
+                    "The imperial rolls are a great appetizer - dare you to eat just one!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/ba-bar-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/iPJEmN"
+                    }
+                ],
+                website: "http://babarseattle.com/"
+            },
+            {
+                id: 11,
+                category: 3,
+                cost: "$$",
+                transportation: "Exit Ba Bar and head 3 blocks north on 12th.  If you've reached Spring St, you've gone too far",
+                description: "Von Trapps can be summed up in three words: bier, brats, bocce.  Styled after a German beer hall, Von Trapps offers german food, german beers, and bocce!  The beer list is extensive and most of the beers are directly from Germany.  The in door bocce ball courts at the highlight and that is what draws most folks in the door.  You'll find a cool crowd here - hip, but friendly and non-pretentious (and maybe even a little dorky - in the good way).",
+                title: "Von Trapps",
+                location1: "912 12th Ave",
+                location2: "Seattle, WA 98122",
+                lat: 47.610894, 
+                long: -122.316765,
+                day: "Sunday",
+                starttime: 22,
+                endtime: 23,
+                tips: [
+                    "Here's how the bocce works.  Go to the back and find the employee taking names.  Get on the list, and wait until your name is called",
+                    "If you leave without sampling some delicious German Hefs, you are doing it wrong.",
+                    "Von Trapps is quite popular in the evening - consider going to Canon next door (highly respected whiskey bar) if the line is too long"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/von-trapps-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/WRJj5F"
+                    }
+                ],
+                website: "http://vontrapps.com/VonTrapps/HOME.html"
+            }
+        ]
     }
 ]; //End of the DataSet Array

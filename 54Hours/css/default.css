@@ -890,10 +890,21 @@ h4 {
     margin: 0px;
 }
 
+.RESULTSGRID_item_rightCounterH3 {
+    text-transform: uppercase;
+    color: #88d8f5;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: bold;
+    margin: 76px 0px 0px 5%;
+    border: 0px;
+    padding: 0px;
+}
+
 .RESULTSGRID_item_righttitle {
     text-transform: uppercase;
     color: #1e2224;
-    margin: 100px 0px 0px 5%;
+    margin: 10px 0px 0px 5%;
     font-weight: bold;
     font-size: 32px;
 }
