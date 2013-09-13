@@ -3,20 +3,25 @@
 
     //Builds the horizontal picture layout for the WHO items
     //associated with this itinerary or search query
-    function buildWhoHorizontalLayout(containerElement, whoArray) {
+    function buildWhoHorizontalLayout(containerElement, whoArray, size) {
         containerElement.innerHTML = "";
         var numberElementsAdded = 0;
         var numberElementsOverflow = 0;
 
+        var sizeString = "45x45";
+        if (size != null) {
+            sizeString = "70x70";
+        }
+
         var backgroundImageArray = [
-            "url('/images/bike_45x45.jpg')",
-            "url('/images/spa_45x45.jpg')",
-            "url('/images/kids_45x45.jpg')",
-            "url('/images/nightlife_45x45.jpg')",
-            "url('/images/foodie_45x45.jpg')",
-            "url('/images/sightseeing_45x45.jpg')",
-            "url('/images/artsculture_45x45.jpg')",
-            "url('/images/shopping_45x45.jpg')"
+            "url('/images/bike_" + sizeString + ".jpg')",
+            "url('/images/spa_" + sizeString + ".jpg')",
+            "url('/images/kids_" + sizeString + ".jpg')",
+            "url('/images/nightlife_" + sizeString + ".jpg')",
+            "url('/images/foodie_" + sizeString + ".jpg')",
+            "url('/images/sightseeing_" + sizeString + ".jpg')",
+            "url('/images/artsculture_" + sizeString + ".jpg')",
+            "url('/images/shopping_" + sizeString + ".jpg')"
         ];
 
         //searchStateObject.whoItemState
@@ -25,7 +30,12 @@
             if (whoArray[i] == 1 && numberElementsAdded < 3) {
                 var tempDiv = document.createElement("div");
                 tempDiv.style.backgroundImage = backgroundImageArray[i];
-                tempDiv.className = "SEARCHGRID_whoHeader";
+                tempDiv.classList.add("SEARCHGRID_whoHeader");
+                if (size == null) {
+                    tempDiv.classList.add("SEARCHGRID_whoHeader_45px");
+                } else {
+                    tempDiv.classList.add("SEARCHGRID_whoHeader_70px");
+                }
 
                 containerElement.appendChild(tempDiv);
 
@@ -42,6 +52,13 @@
         if (numberElementsOverflow > 0) {
             var tempOverflowDiv = document.createElement("div");
             tempOverflowDiv.className = "SEARCHGRID_whoHeader";
+
+            if (size == null) {
+                tempOverflowDiv.classList.add("SEARCHGRID_whoHeader_45px");
+            } else {
+                tempOverflowDiv.classList.add("SEARCHGRID_whoHeader_70px");
+            }
+
             tempOverflowDiv.innerText = "+" + numberElementsOverflow.toString();
             containerElement.appendChild(tempOverflowDiv);
         }

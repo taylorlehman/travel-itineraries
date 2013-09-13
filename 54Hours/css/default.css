@@ -409,9 +409,17 @@ h4 {
     cursor: pointer;
 }
 
-.SEARCHGRID_whoHeader {
+.SEARCHGRID_whoHeader_70px {
+    height: 70px;
+    width: 70px;
+}
+
+.SEARCHGRID_whoHeader_45px {
     height: 45px;
     width: 45px;
+}
+
+.SEARCHGRID_whoHeader {
     margin: 0px 5px 0px 0px;
     padding: 0px;
     display: -ms-flexbox;
@@ -947,6 +955,16 @@ h4 {
     font-family: 'Segoe UI';
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.RESULTSGRID_item_infogrid_div {
+    width: 100%;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -ms-flex-direction: row;
+    height: 80px;
+    padding-top: 20px;
 }
 
 .RESULTSGRID_item_infogrid_h2 {

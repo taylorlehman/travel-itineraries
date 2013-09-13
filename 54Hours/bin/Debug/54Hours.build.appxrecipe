@@ -745,11 +745,17 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\artsculture_45x45.jpg">
       <PackagePath>images\artsculture_45x45.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\artsculture_70x70.jpg">
+      <PackagePath>images\artsculture_70x70.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\bike_200x200.jpg">
       <PackagePath>images\bike_200x200.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\bike_45x45.jpg">
       <PackagePath>images\bike_45x45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\bike_70x70.jpg">
+      <PackagePath>images\bike_70x70.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\concert_200x200.jpg">
       <PackagePath>images\concert_200x200.jpg</PackagePath>
@@ -762,6 +768,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\foodie_45x45.jpg">
       <PackagePath>images\foodie_45x45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\foodie_70x70.jpg">
+      <PackagePath>images\foodie_70x70.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\hiking_200x200.jpg">
       <PackagePath>images\hiking_200x200.jpg</PackagePath>
@@ -799,11 +808,17 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\kids_45x45.jpg">
       <PackagePath>images\kids_45x45.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\kids_70x70.jpg">
+      <PackagePath>images\kids_70x70.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\nightlife_200x200.jpg">
       <PackagePath>images\nightlife_200x200.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\nightlife_45x45.jpg">
       <PackagePath>images\nightlife_45x45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\nightlife_70x70.jpg">
+      <PackagePath>images\nightlife_70x70.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\oysters_background.jpg">
       <PackagePath>images\oysters_background.jpg</PackagePath>
@@ -838,11 +853,17 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\shopping_45x45.jpg">
       <PackagePath>images\shopping_45x45.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\shopping_70x70.jpg">
+      <PackagePath>images\shopping_70x70.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\sightseeing_200x200.jpg">
       <PackagePath>images\sightseeing_200x200.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\sightseeing_45x45.jpg">
       <PackagePath>images\sightseeing_45x45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\sightseeing_70x70.jpg">
+      <PackagePath>images\sightseeing_70x70.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\space_needle_background.jpg">
       <PackagePath>images\space_needle_background.jpg</PackagePath>
@@ -852,6 +873,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\spa_45x45.jpg">
       <PackagePath>images\spa_45x45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\spa_70x70.jpg">
+      <PackagePath>images\spa_70x70.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\taylor.jpg">
       <PackagePath>images\taylor.jpg</PackagePath>

@@ -259,9 +259,9 @@
         tempRightDivInfoGridWhoH1.innerText = "What";
         tempRightDivInfoGridWho.appendChild(tempRightDivInfoGridWhoH1);
 
-        var tempRightDivInfoGridWhoH2 = document.createElement("h2");
-        tempRightDivInfoGridWhoH2.classList.add("RESULTSGRID_item_infogrid_h2");
-        //TODO: INSERT LINE FOR APPENDING WHO CONTENT
+        var tempRightDivInfoGridWhoH2 = document.createElement("div");
+        tempRightDivInfoGridWhoH2.classList.add("RESULTSGRID_item_infogrid_div");
+        Utilities.buildWhoHorizontalLayout(tempRightDivInfoGridWhoH2, response.who, "70");
         tempRightDivInfoGridWho.appendChild(tempRightDivInfoGridWhoH2);
 
         tempRightDivInfoGrid.appendChild(tempRightDivInfoGridWho);
@@ -300,6 +300,7 @@
         tempRightDivParagraph.innerText = response.summary;
         tempRightDiv.appendChild(tempRightDivParagraph);
 
+        //Create the grid that shows how much it costs and what activity types it includes
         tempRightDiv.appendChild(this.buildRightResultGrid(response, i));
 
         //Create the sample activities section
