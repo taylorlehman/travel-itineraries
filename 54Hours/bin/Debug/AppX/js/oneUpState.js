@@ -72,6 +72,8 @@
         this.centerPoints = new Object();
         this.currentViewFirstEventId = 0;
         this.currentViewLastEventId = null;
+        this.pushPinArray = null;
+        this.MapViewChangeEndEventHandler = MapViewChangeEndEventHandler;
 
         //Details Div Transition Variables 
         this.detailsDivState = 0; //0=Closed, 1=Full, 2=Mini
@@ -484,8 +486,26 @@
         }
     };
 
+
+    //Note: This is needed to work around a bing maps bug where the
+    //click handlers seem to come unbound when a pushpin with custom HTML
+    //leaves the screen
+    function MapViewChangeEndEventHandler() {
+        
+        //Remove all pushpins
+        this.map.entities.clear();
+
+        //Re-add all pushpins
+        for (var i = 0; i < this.pushPinArray.length; i++) {
+            this.map.entities.push(this.pushPinArray[i]);
+        }
+    };
+
     //Assumption: The event list is already saved
     function InitializeMap() {
+
+        //Initialize the Pushpin array
+        this.pushPinArray = new Array();
 
         //Clear the map
         this.map.entities.clear();
@@ -528,9 +548,10 @@
             //Create and config the map dot
             var pushpinOptions = this.createPushPinOptions(this.item.eventsList[i].id, this.item.eventsList[i].day, false, true);
             var pushpin = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(this.item.eventsList[i].lat, this.item.eventsList[i].long), pushpinOptions);
-            var self = this;
+            var self = this; //A little closure magic to ensure that the scoping is correct on the click
             Microsoft.Maps.Events.addHandler(pushpin, 'click', self.mapDotClick);
             this.map.entities.push(pushpin);
+            this.pushPinArray.push(pushpin);
             this.item.eventsList[i].mappushpinindex = this.map.entities.getLength() - 1;
 
             //Determine the impact on the bounding box
@@ -573,6 +594,10 @@
             center:
                 this.centerPoint
         });
+
+        //Add the handler for map move
+        var self = this;
+        Microsoft.Maps.Events.addHandler(this.map, 'viewchangeend', function () { self.MapViewChangeEndEventHandler() });
     };
 
     function clearMap() {
@@ -1041,7 +1066,6 @@
             this.switchEventStyle(this.getEventElementById(this.selectedEventId));
 
             //Reset the map point
-            //TODO: Use createPushPinOptions instead
             var pushpinoptions = this.createPushPinOptions(this.selectedEventId, this.getEventById(this.selectedEventId).day, false, true);
             this.map.entities.get(this.getEventById(this.selectedEventId).mappushpinindex).setOptions(pushpinoptions);
         }
@@ -1057,7 +1081,6 @@
         if (this.selectedEventId != null) {
             this.switchEventStyle(this.getEventElementById(this.selectedEventId));
 
-            //TODO: Use createPushPinOptions instead
             var pushpinoptions = this.createPushPinOptions(this.selectedEventId, this.getEventById(this.selectedEventId).day, false, true);
             this.map.entities.get(this.getEventById(this.selectedEventId).mappushpinindex).setOptions(pushpinoptions);
         }
@@ -1069,7 +1092,6 @@
         this.switchEventStyle(this.getEventElementById(this.selectedEventId));
 
         //Put the point on the map into selected mode
-        //TODO: Use createPushPinOptions instead
         var pushpinoptions = this.createPushPinOptions(this.selectedEventId, this.getEventById(this.selectedEventId).day, true, true);
         this.map.entities.get(this.getEventById(this.selectedEventId).mappushpinindex).setOptions(pushpinoptions);
     };
