@@ -802,6 +802,9 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\3_results.jpg">
       <PackagePath>images\itineraryImages\3_results.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\4_results.jpg">
+      <PackagePath>images\itineraryImages\4_results.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\kids_200x200.jpg">
       <PackagePath>images\kids_200x200.jpg</PackagePath>
     </AppxPackagedFile>

@@ -1634,5 +1634,469 @@
                 website: "http://vontrapps.com/VonTrapps/HOME.html"
             }
         ]
+    },
+    /**************************************************************/
+    /***************** Shop Until You Drop ************************/
+    /**************************************************************/
+    {
+        id: 4,
+        ishighlight: false,
+        resultsImage: "/images/itineraryImages/4_results.jpg",
+        authorId: 0,
+        title: "Shop Til You Drop",
+        summary: "While Seattle is known for it's hiking and it's rain, it's also a very cosmopolitian city filled with great shopping, restaurants, and nightlife.  Explore the finer points of city life as you shop-til-you-drop!",
+        location: "Seattle, WA",
+        howmuch: "$$$",
+        who: [0, 1, 0, 1, 1, 0, 1, 1],
+        highlights: [
+            "Shopping at the Nordstrom Flagship Store",
+            "Yoga at Yoga for the People",
+            "Award Winning Southern Italian Food at Spinasse"
+        ],
+        eventsList: [
+            {
+                id: 0,
+                category: 4,
+                cost: "$$",
+                transportation: "From downtown, the 43 bus will get you part of the way up the hill",
+                description: "Start your weekend off in the quintessential people-watching café in the heart of Capitol Hill.  Sit indoors in the large communal space, or if the sun is out, take a table outdoors and enjoy the bustle of the sidewalk.",
+                title: "Oddfellows Cafe",
+                location1: "1525 10th Ave",
+                location2: "Seattle, WA 981222",
+                lat: 47.615067, 
+                long: -122.319627,
+                day: "Friday",
+                starttime: 10,
+                endtime: 12,
+                tips: [
+                    "Get the baked eggs and start your morning off right.",
+                    "Coffee is self-pour and go ahead and help yourself!",
+                    "Their BLATs are classically delicious if you're in the mood for more lunch than breakfast."
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/oddfellows-cafe-and-bar-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/5UgyuK"
+                    }
+                ],
+                website: "http://www.dinetteseattle.com/"
+            },
+            {
+                id: 1,
+                category: 7,
+                cost: "$$",
+                transportation: "Just walk a few blocks south to Pine to start your browsing",
+                description: "Capitol Hill is the home to vintage consignment stores, super-trendy clothing, as well as eclectic stores that specialize in anything from cupcakes to German boardgames.  Browse the streets of Pike and Pine to your heart's content and there will still be more to see.",
+                title: "Boutique Browsing in Capital Hill",
+                location1: "Capital Hill",
+                location2: "Seattle, WA",
+                lat: 47.615179, 
+                long: -122.327899,
+                day: "Friday",
+                starttime: 13,
+                endtime: 18,
+                tips: [
+                    "Stop by Melrose Market for a quick bite or snack if you're hungry and visit one of the cutest indoor markets in the process.  Butter Home is a great for cool home decor.",
+                    "For great vintage finds, check out Pretty Parlor."
+                ],
+                moreTips: [],
+                website: null
+            },
+            {
+                id: 2,
+                category: 4,
+                cost: "$$$",
+                transportation: "Keep walking up the hill to 14th and Pine",
+                description: "Spinasse is like eating in the kitchen of the Italian grandmother that you never had.  From the lace curtains to the wooden tables to the antique silverware - the decor sets the tone perfectly for the culinary treat that awaits you.  Chef Jason Stratton's food is masterful - the pasta is prepared in house and paired with seasonal ingredients and classic Piedmont flavors.  The wine list offers a wide selection of Italian wines.",
+                title: "Dinner at Spinasse",
+                location1: "1531 14th Ave",
+                location2: "Seattle, WA 98122",
+                lat: 47.615155, 
+                long: -122.314271,
+                day: "Friday",
+                starttime: 19,
+                endtime: 22,
+                tips: [
+                    "The Targerine (paired with ragu or butter and sage) is not to be missed",
+                    "Recommend getting the Barbera or the Borollo to go with your dinner"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/cascina-spinasse-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8e6zZm"
+                    }
+                ],
+                website: "http://www.spinasse.com"
+            },
+            {
+                id: 3,
+                category: 3,
+                cost: "$$",
+                transportation: "Walk west on Pine until you get to 12th.  Follow 12th South until you reach Madison",
+                description: "Tavern Law has two parts, the main bar area and the upstairs \"Needle and Thread Bar\" area.  The mainfloor is accessible to all, but only the few who know the right words to utter into the telephone at the back of the bar can get upstairs.  The atisan cocktails are delicious and the food is worth trying if your dinner wasn't enough to fill you up.",
+                title: "Drinks at Tavern Law",
+                location1: "1406 12th Ave",
+                location2: "Seattle, WA 98122",
+                lat: 47.613109, 
+                long: -122.316706,
+                day: "Friday",
+                starttime: 22,
+                endtime: 23,
+                tips: [
+                    "Be nice to the doorman and he may give you some secrets on how to get upstairs",
+                    "Hungry?  Try the burger with braised pork belly"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/tavern-law-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/4zj7VX"
+                    }
+                ],
+                website: "http://www.tavernlaw.com/"
+            },
+            {
+                id: 4,
+                category: 0,
+                cost: "$$",
+                transportation: "From downtown hotel district, take one of the buses in the 70s",
+                description: "Who says you can't get in a workout while on vacation?  This donation-based Vinyasa yoga class and $8 hot yoga class feature one of the best (and most inexpensive) drop-in classes in Seattle with excellent instructors.",
+                title: "Yoga to the People",
+                location1: "4511 Roosevelt Way NE",
+                location2: "Seattle, WA 98105",
+                lat: 47.661804, 
+                long: -122.317552,
+                day: "Saturday",
+                starttime: 9,
+                endtime: 10,
+                tips: [
+                    "Show up a little earlier to get the ideal spot!",
+                    "Get ready to sweat - the hot yoga class is HOT!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/yoga-to-the-people-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/h5Kh7v"
+                    }
+                ],
+                website: "http://yogatothepeople.com/"
+            },
+            {
+                id: 5,
+                category: 4,
+                cost: "$$",
+                transportation: "From Yoga to the People, just walk a few blocks south on Roosevelt",
+                description: "Portage Bay Cafe is a brunch institution in Seattle.  What makes it special is that is has a menu that is as extensive as any greasy spoon, but the dishes are prepared with the care and quality of a much nicer restaurant.  All of this is servered in an open, airy space that is filled with the light from the huge windows.  The result is approachable food in a space that will help ease you into the day.",
+                title: "Portage Bay Cafe",
+                location1: "4130 Roosevelt Way NE",
+                location2: "Seattle, WA 98105",
+                lat: 47.657694, 
+                long: -122.317708,
+                day: "Saturday",
+                starttime: 10,
+                endtime: 12,
+                tips: [
+                    "There are multiple locations around town - if asking directions, make sure to specify the Roosevelt Way location",
+                    "The lines are long, always long.  Come prepared to wait",
+                    "When you get inside, take a good look at the waffles to get access to the fruit bar"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/portage-bay-caf%C3%A9-and-catering-seattle-3"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/6PCvFU"
+                    }
+                ],
+                website: "http://www.portagebaycafe.com"
+            },
+            {
+                id: 6,
+                category: 7,
+                cost: "$$",
+                transportation: "From Portage Bay, walk north to 45th street and take the 44 bus to University Village",
+                description: "This shopping mecca has it all in a expansive outdoor mall concept.  Visit Seattle classics like Lululemon and Fran's in addition to national brands like Anthropologie and Sephora.",
+                title: "University Village",
+                location1: "2623 NE University Village St",
+                location2: "Seattle, WA 98105",
+                lat: 47.663100, 
+                long: -122.298861,
+                day: "Saturday",
+                starttime: 13,
+                endtime: 17,
+                tips: [
+                    "Fido with you on vacation?  University Village is dog-friendly!",
+                    "Sample some delicious cupcakes at reknowned Trophy Cupcakes."
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/university-village-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/5OMy0j"
+                    }
+                ],
+                website: "http://www.uvillage.com/"
+            },
+            {
+                id: 7,
+                category: 6,
+                cost: "$$",
+                transportation: "From the downtown hotel district, catch a cab over to the Paramount",
+                description: "What is more romantic than a night at the theater?  The Paramount is host to touring performances of broadway musicals and a variety of musical and comedy acts.  This grand old building has beautiful finishes and comfortable chairs that will make you fall asleep if the performance gets a bit slow.  Refreshments are available to purchase in the lobby at the intermissions.",
+                title: "Paramount Theater",
+                location1: "911 Pine St",
+                location2: "Seattle, WA 98101",
+                lat: 47.613665, 
+                long: -122.331667,
+                day: "Saturday",
+                starttime: 19,
+                endtime: 22,
+                tips: [
+                    "The bathroom lines are horendous. If you have to go, don't delay - get in line ASAP",
+                    "The line for drinks is equally as long.  If getting a drink at intermission is important to you, consider pre-ordering"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/paramount-theatre-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/2TAe6E"
+                    }
+                ],
+                website: "http://www.stgpresents.org/paramount/"
+            },
+            {
+                id: 8,
+                category: 4,
+                cost: "$$",
+                transportation: "Cab is probably the best bet - it's too far to walk and too close to make waiting for the bus worth it",
+                description: "A visit to Seattle wouldn't be complete without a stop at one of Tom Douglas' restaurants.  Palace Kitchen is the perfect spot for dinner and drinks after a night at the theater.  The drinks are creative, the food is approachable and delicious, and the space is warm, dark, and romantic.  The menu is filled with a variety of small plates and full entrees that can only be described as sophisticatedly savory and delicious.",
+                title: "Palace Kitchen",
+                location1: "2030 5th Ave",
+                location2: "Seattle, WA 98121",
+                lat: 47.614536, 
+                long: -122.340215,
+                day: "Saturday",
+                starttime: 22,
+                endtime: 23,
+                tips: [
+                    "The chicken wings are a great late-night treat",
+                    "Try to snag a seat in the front at one of the tables by the windows for a view of the street and monorail as you eat"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/palace-kitchen-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8eNPKL"
+                    }
+                ],
+                website: "http://tomdouglas.com/index.php?page=palace-kitchen"
+            },
+            {
+                id: 9,
+                category: 4,
+                cost: "$$",
+                transportation: "A short cab ride or early morning stroll will get you there from the downtown hotels",
+                description: "Upon entering Macrina Barkey you'll be faced with a difficult decision: which of the many pastries will you eat?  Will you choose one of the savory options, or a sweet treat?  Whichever way you go will not be a wrong choice.  Pair your pasty (or pastires, we won't tell) with a cup of coffee and grab a spot at the window for some Sunday morning people watching.",
+                title: "Macrina Bakery",
+                location1: "2408 1st Ave",
+                location2: "Seattle, WA 98121",
+                lat: 47.614385, 
+                long: -122.347939,
+                day: "Sunday",
+                starttime: 10,
+                endtime: 12,
+                tips: [
+                    "If you'd prefer a protein option, try the salmon scramble"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/macrina-bakery-and-cafe-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/1SWBfG"
+                    }
+                ],
+                website: "http://www.macrinabakery.com/"
+            },
+            {
+                id: 10,
+                category: 1,
+                cost: "$$",
+                transportation: "You could hop in a cab (and should if it's raining), but if it's a nice day, walk to burn off those calories from breakfast",
+                description: "Feel good about being doing good for the environment while you get pampered.  Julep uses natural-based ingredients in their namesake polish and their famous hospitality will leave you feeling relaxed and taken care of.",
+                title: "Julep Nail Parlor",
+                location1: "1427 5th Ave",
+                location2: "Seattle, WA 98101",
+                lat: 47.609934, 
+                long: -122.335111,
+                day: "Sunday",
+                starttime: 13,
+                endtime: 14,
+                tips: [
+                    "Julep lets you take the nail filer and buffer that is used during your treatment!",
+                    "Try one of their seasonal colors for your mani-pedi!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/julep-nail-parlor-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/djoQAX"
+                    }
+                ],
+                website: "http://www.julep.com/"
+            },
+            {
+                id: 11,
+                category: 7,
+                cost: "$$$",
+                transportation: "Just a few short blocks away - we recommend walking whatever the weather",
+                description: "Seattle is where the famous Nordstrom department store got it's start, and this store is where it all began.  This location has five floors of shoes, apparel, jewelry, and homeware - all staffed by Nordstrom's friendly staff who are eager to make your experience a great one.",
+                title: "Nordstrom Flagship Store",
+                location1: "500 Pine Street",
+                location2: "Seattle, WA 98101",
+                lat: 47.612069,
+                long: -122.335770,
+                day: "Sunday",
+                starttime: 15,
+                endtime: 16,
+                tips: [
+                    "If you get tired, dip into the bistro or the café for a quick refresh.",
+                    "If it's raining, you can take the skybridge on the 5th story next door to continue your shopping at Pacific Place"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/nordstrom-seattle-2"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/4o0hAd"
+                    }
+                ],
+                website: "http://shop.nordstrom.com/"
+            },
+            {
+                id: 12,
+                category: 7,
+                cost: "$$$",
+                transportation: "Walk one block east along Pine",
+                description: "Pacific Place mall is a great place to escape the heat or the rain and indulge your shopping desires.  The mall is a single cyclinder with a large atrium in the middle and skylight at the top.  The stores that line the edges include all the top name brands.",
+                title: "Pacific Place",
+                location1: "600 Pine St",
+                location2: "Seattle, WA 98101",
+                lat: 47.612467, 
+                long: -122.334842,
+                day: "Sunday",
+                starttime: 16,
+                endtime: 18,
+                tips: [
+                    "Check out Hointer, the new robot-based jeans store founded by a former Amazon exec.",
+                    "If you're jonesing for some froyo, you can find Red Mango in the basement!",
+                    "Hungry?  The top floor has a variety of different restaurants, including Seattle renowned Pike Place Chowder."
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/pacific-place-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8xZ9lW"
+                    }
+                ],
+                website: "http://www.pacificplaceseattle.com/"
+            },
+            {
+                id: 13,
+                category: 4,
+                cost: "$$",
+                transportation: "Walk west on Pine until you hit Pike Place Market.  You'll find Pink Door in Post Alley between Virginia and Stewart",
+                description: "From the pink door that greets you upon your arrival to the trapeze equipment hanging from the ceiling, this place just reeks of quirk and charm.  Set below the street, you'll feel like you are entering a cave to eat your dinner - either cool to escape the heat or warm to get in out of the cold.  The atmosphere is warm and inviting and everything on the menu is great.  A perfect way to re-fuel after a busy day.",
+                title: "Pink Door",
+                location1: "1919 Post Alley",
+                location2: "Seattle, WA 98101",
+                lat: 47.610141, 
+                long: -122.342081,
+                day: "Sunday",
+                starttime: 19,
+                endtime: 22,
+                tips: [
+                    "If you're there on a cold day, try the lasagne to warm you up",
+                    "The cheese plate is a lot of fun - each cheese is perfectly paired with a side ingredient (chocolate, etc)"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/the-pink-door-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/8BwdI7"
+                    }
+                ],
+                website: "http://www.thepinkdoor.net/"
+            },
+            {
+                id: 14,
+                category: 3,
+                cost: "$$",
+                transportation: "Just walk three blocks north on 1st Ave",
+                description: "A BBQ joint by day, a dance club by night, the Frontier Room is a great place to unwind with your girlfriends at the end of a successful shopping day!  The bartenders are ultra-nice as you take some drink breaks between the latest hits by Lady Gaga and Kelly Clarkson.",
+                title: "Frontier Room",
+                location1: "2203 First Ave",
+                location2: "Seattle, WA 98101",
+                lat: 47.612565, 
+                long: -122.345503,
+                day: "Sunday",
+                starttime: 22,
+                endtime: 23,
+                tips: [
+                    "No cover for the ladies - it's nice to be a girl!",
+                    "If you feel like showing up earlier, the food is great as well!"
+                ],
+                moreTips: [
+                    {
+                        tipProvider: 0,
+                        url: "http://www.yelp.com/biz/frontier-room-seattle"
+                    },
+                    {
+                        tipProvider: 1,
+                        url: "http://4sq.com/32XKbO"
+                    }
+                ],
+                website: "http://www.frontierroom.com/"
+            }
+        ]
     }
 ]; //End of the DataSet Array

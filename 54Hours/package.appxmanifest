@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545" Version="1.0.0.0" Publisher="CN=Taylor" />
+  <Identity Name="20664TaylorLehman.SeventyTwoHours" Version="1.0.0.3" Publisher="CN=36D996AC-A41C-4314-B543-D110B941247A" />
   <Properties>
-    <DisplayName>54Hours</DisplayName>
-    <PublisherDisplayName>Taylor</PublisherDisplayName>
+    <DisplayName>Seventy Two Hours</DisplayName>
+    <PublisherDisplayName>Taylor Lehman</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -24,7 +24,4 @@
       </VisualElements>
     </Application>
   </Applications>
-  <Capabilities>
-    <Capability Name="internetClient" />
-  </Capabilities>
 </Package>

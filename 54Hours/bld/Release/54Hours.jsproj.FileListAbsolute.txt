@@ -1,0 +1,9 @@
+D:\GitHub\travel-itineraries\54Hours\bin\Release\resources.pri
+D:\GitHub\travel-itineraries\54Hours\bin\Release\AppxManifest.xml
+D:\GitHub\travel-itineraries\54Hours\bin\Release\54Hours.build.appxrecipe
+D:\GitHub\travel-itineraries\54Hours\bld\Release\priconfig.xml
+D:\GitHub\travel-itineraries\54Hours\bld\Release\layout.resfiles
+D:\GitHub\travel-itineraries\54Hours\bld\Release\resources.resfiles
+D:\GitHub\travel-itineraries\54Hours\bld\Release\pri.resfiles
+D:\GitHub\travel-itineraries\54Hours\bld\Release\LanguageQualifiers.txt
+D:\GitHub\travel-itineraries\54Hours\bld\Release\ProjectArchitectures.txt

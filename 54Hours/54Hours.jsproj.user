@@ -3,6 +3,9 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Taylor\AppData\Local\Temp\54Hours_refcache</ReferenceCachePath>
     <AutoRefresh>false</AutoRefresh>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxShowAllApps>True</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <MachineName>CASEYSURFACE:4016</MachineName>

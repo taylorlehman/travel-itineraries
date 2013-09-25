@@ -47,12 +47,15 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>54Hours_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>54Hours_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>33F06A18F52B13BC00D97B6FC3D51C43F2343945</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="54Hours_StoreKey.pfx" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="default.html" />
     <Content Include="fonts\fontawesome-webfont.eot" />
@@ -86,6 +89,7 @@
     <Content Include="images\itineraryImages\2_results.jpg" />
     <Content Include="images\itineraryImages\3_highlight.jpg" />
     <Content Include="images\itineraryImages\3_results.jpg" />
+    <Content Include="images\itineraryImages\4_results.jpg" />
     <Content Include="images\kids_200x200.jpg" />
     <Content Include="images\kids_45x45.jpg" />
     <Content Include="images\kids_70x70.jpg" />
@@ -133,6 +137,7 @@
     <Content Include="js\userData.js" />
     <Content Include="js\utilities.js" />
     <Content Include="js\worker.js" />
+    <None Include="Package.StoreAssociation.xml" />
     <None Include="54Hours_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

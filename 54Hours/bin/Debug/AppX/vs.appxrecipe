@@ -5,18 +5,18 @@
     <WindowsUser>Taylor</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>A9789741851ED226500CECC7288A6E5EE677056CD28C0B7C428115BF1E3DCCB8</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_1.0.0.0_neutral__hxaws8gg03xft</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545_hxaws8gg03xft!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>ef4f4e7b-3ec5-460f-a1fc-4c5a7d509545</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Taylor</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>D1C1F167B18685E1A41C8E369F0A8CC8072544C7839219B572FA37B6BF3B4FC8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>20664TaylorLehman.SeventyTwoHours_1.0.0.2_neutral__6k89nzhzhf13a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>20664TaylorLehman.SeventyTwoHours_6k89nzhzhf13a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>20664TaylorLehman.SeventyTwoHours</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=36D996AC-A41C-4314-B543-D110B941247A</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.2</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-09-13T04:51:32.753</Modified>
+      <Modified>2013-09-23T02:46:13.115</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -950,11 +950,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\font-awesome.min.css">
       <PackagePath>css\font-awesome.min.css</PackagePath>
-      <Modified>2013-09-07T21:18:13.888</Modified>
+      <Modified>2013-09-23T02:14:17.211</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-09-13T05:47:56.664</Modified>
+      <Modified>2013-09-20T00:49:19.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\default.html">
       <PackagePath>default.html</PackagePath>
@@ -1071,6 +1071,10 @@
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\3_results.jpg">
       <PackagePath>images\itineraryImages\3_results.jpg</PackagePath>
       <Modified>2013-08-28T05:12:16.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\itineraryImages\4_results.jpg">
+      <PackagePath>images\itineraryImages\4_results.jpg</PackagePath>
+      <Modified>2013-09-18T05:36:04.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\images\kids_200x200.jpg">
       <PackagePath>images\kids_200x200.jpg</PackagePath>
@@ -1219,7 +1223,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\appBarManager.js">
       <PackagePath>js\appBarManager.js</PackagePath>
-      <Modified>2013-09-05T01:08:31.211</Modified>
+      <Modified>2013-09-23T02:12:29.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\controller.js">
       <PackagePath>js\controller.js</PackagePath>
@@ -1227,7 +1231,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\data.js">
       <PackagePath>js\data.js</PackagePath>
-      <Modified>2013-09-11T06:29:26.792</Modified>
+      <Modified>2013-09-23T01:56:54.102</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -1243,7 +1247,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\oneUpState.js">
       <PackagePath>js\oneUpState.js</PackagePath>
-      <Modified>2013-09-17T20:37:30.773</Modified>
+      <Modified>2013-09-17T20:40:20.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\resultsState.js">
       <PackagePath>js\resultsState.js</PackagePath>
@@ -1263,11 +1267,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\js\worker.js">
       <PackagePath>js\worker.js</PackagePath>
-      <Modified>2013-09-05T06:06:35.034</Modified>
+      <Modified>2013-09-18T05:38:52.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\travel-itineraries\54Hours\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-09-13T04:51:30.896</Modified>
+      <Modified>2013-09-23T02:46:12.581</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

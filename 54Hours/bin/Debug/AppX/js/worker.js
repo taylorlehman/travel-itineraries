@@ -28,19 +28,19 @@ SearchHashTable["SF_winter_3"] = [0, 1, 2];
 
 SearchHashTable["SEA_spring_1"] = [0, 1];
 SearchHashTable["SEA_spring_2"] = [0, 1];
-SearchHashTable["SEA_spring_3"] = [0, 1];
+SearchHashTable["SEA_spring_3"] = [0, 1, 4];
 
 SearchHashTable["SEA_summer_1"] = [2];
 SearchHashTable["SEA_summer_2"] = [0, 1, 2, 3];
-SearchHashTable["SEA_summer_3"] = [0, 1, 2, 3];
+SearchHashTable["SEA_summer_3"] = [0, 1, 2, 3, 4];
 
 SearchHashTable["SEA_fall_1"] = [0, 1];
 SearchHashTable["SEA_fall_2"] = [0, 1];
-SearchHashTable["SEA_fall_3"] = [0, 1];
+SearchHashTable["SEA_fall_3"] = [0, 1, 4];
 
 SearchHashTable["SEA_winter_1"] = [];
 SearchHashTable["SEA_winter_2"] = [];
-SearchHashTable["SEA_winter_3"] = [];
+SearchHashTable["SEA_winter_3"] = [4];
 
 SearchHashTable["NY_spring_1"] = [0, 1, 2];
 SearchHashTable["NY_spring_2"] = [0, 1, 2];
